@@ -1,0 +1,205 @@
+buildscript {
+    repositories {
+        // 这些仓库仅用于 Gradle 插件，将任何其他仓库放在下面的 repository 块中
+        maven { url = 'https://maven.minecraftforge.net' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
+    }
+}
+
+// 只编辑此行以下的内容，上面的代码添加并启用了 Forge 设置所需的内容。
+plugins {
+    id 'eclipse'
+    id 'maven-publish'
+}
+apply plugin: 'net.minecraftforge.gradle'
+
+
+version = '0.0.1'
+group = 'com.gengyoubo.changedplus' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'changedplus'
+
+// Mojang 在 1.18+ 版本中向最终用户提供 Java 17，因此您的模组应该针对 Java 17。
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
+minecraft {
+    // 映射可以随时更改，并且必须采用以下格式。
+    // 渠道：版本：
+    // official   MCVersion             Mojang 映射文件中的官方字段/方法名称
+    // parchment  YYYY.MM.DD-MCVersion  基于官方的开放社区参数名称和 javadocs
+    //
+    // 在使用 'official' 或 'parchment' 映射时，您必须注意 Mojang 许可证。
+    // 请在此处查看更多信息：https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+    //
+    // Parchment 是由 ParchmentMC 维护的非官方项目，与 MinecraftForge 分开
+    // 使用它们的映射需要进行其他设置：https://github.com/ParchmentMC/Parchment/wiki/Getting-Started
+    //
+    // 使用非默认映射时请自行承担风险。它们可能不总是有效。
+    // 更改映射后，只需重新运行设置任务即可更新您的工作区。
+    mappings channel: 'official', version: '1.18.2'
+
+    // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg') // 目前，此位置无法从默认值更改。
+
+    // 默认的运行配置。
+    // 可以根据需要进行调整、删除或复制。
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            // 用户开发环境中推荐的日志数据
+            // 标记可以按需添加/删除，以逗号分隔。
+            // "SCAN": 用于扫描模组。
+            // "REGISTRIES": 用于触发注册表事件。
+            // "REGISTRYDUMP": 用于获取所有注册表的内容。
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            // 控制台的推荐日志级别
+            // 您可以在这里设置各种级别。
+            // 请阅读：https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
+            property 'forge.logging.console.level', 'debug'
+
+            // 逗号分隔的命名空间列表，用于加载游戏测试。空白 = 所有命名空间。
+            property 'forge.enabledGameTestNamespaces', 'examplemod'
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+            // 逗号分隔的命名空间列表，用于加载游戏测试。空白 = 所有命名空间。
+            property 'forge.enabledGameTestNamespaces', 'examplemod'
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        // 此运行配置启动 GameTestServer 并运行所有已注册的游戏测试，然后退出。
+        // 默认情况下，当没有提供游戏测试时，服务器将崩溃。
+        // 游戏测试系统默认也启用了其他运行配置下的 /test 命令。
+        gameTestServer {
+            workingDirectory project.file('run')
+
+            // 用户开发环境中推荐的日志数据
+            // 标记可以按需添加/删除，以逗号分隔。
+            // "SCAN": 用于扫描模组。
+            // "REGISTRIES": 用于触发注册表事件。
+            // "REGISTRYDUMP": 用于获取所有注册表的内容。
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            // 控制台的推荐日志级别
+            // 您可以在这里设置各种级别。
+            // 请阅读：https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
+            property 'forge.logging.console.level', 'debug'
+
+            // 逗号分隔的命名空间列表，用于加载游戏测试。空白 = 所有命名空间。
+            property 'forge.enabledGameTestNamespaces', 'examplemod'
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+            // 指定数据生成的模组 id、输出结果的资源和查找现有资源的位置。
+            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+// 包含由数据生成器生成的资源。
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+    // 将依赖项的仓库放在这里
+    // ForgeGradle 会自动为您添加 Forge maven 和 Maven Central
+
+    // 如果在 ./libs 中有模组 jar 依赖项，您可以将它们声明为仓库，如下所示：
+    // flatDir {
+    //     dir 'libs'
+    // }
+}
+
+dependencies {
+    // 指定要使用的 Minecraft 版本。如果此组不是 'net.minecraft'，则假定该依赖项是 ForgeGradle 的 'patcher' 依赖项，并将应用其补丁。
+    // 用户开发时间是一个特殊名称，并且将对其进行各种转换。
+    minecraft 'net.minecraftforge:forge:1.18.2-40.2.0'
+
+    // 真实模组非混淆依赖项示例 - 这些将被重映射为当前映射
+    // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // 将 JEI API 添加为编译时依赖项
+    // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}") // 将完整的 JEI 模组添加为运行时依赖项
+    // implementation fg.deobf("com.tterrag.registrate:Registrate:MC${mc_version}-${registrate_version}") // 将 Registrate 添加为依赖项
+
+    // 使用 ./libs 中的模组 jar 的示例
+    // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
+
+    // 更多信息...
+    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
+    // http://www.gradle.org/docs/current/userguide/dependency_management.html
+}
+
+// 示例以将属性添加到清单以供运行时读取。
+jar {
+    manifest {
+        attributes([
+                "Specification-Title"     : "examplemod",
+                "Specification-Vendor"    : "examplemodsareus",
+                "Specification-Version"   : "1", // 我们是我们自己的版本 1
+                "Implementation-Title"    : project.name,
+                "Implementation-Version"  : project.jar.archiveVersion,
+                "Implementation-Vendor"   : "examplemodsareus",
+                "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+// 示例配置以使用 maven-publish 插件进行发布
+// 这是重新混淆 jar 文件的首选方法
+jar.finalizedBy('reobfJar')
+// 但是，如果您处于多项目构建中，开发时间需要未混淆的 jar 文件，因此您可以在发布时延迟混淆，方法是
+// publish.dependsOn('reobfJar')
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/mcmodsrepo"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // 使用 UTF-8 字符集进行 Java 编译
+}
