@@ -17,8 +17,8 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 
 
-version = '0.0.1'
-group = 'com.gengyoubo.changedplus' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+version = "0.0.0"
+group = 'github.com.gengyoubo.changedplus' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'changedplus'
 
 // Mojang 在 1.18+ 版本中向最终用户提供 Java 17，因此您的模组应该针对 Java 17。

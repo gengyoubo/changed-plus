@@ -34,3 +34,16 @@ credits="普罗的“狼”窝" #optional
 authors="耿悠博" #optional
 # 模组的描述文本（多行！）（#mandatory）
 description='''多支持原作'''
+[[dependencies.changedplus]]
+modId="forge"
+mandatory=true
+versionRange="[40.2.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.changedplus]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2]"
+ordering="NONE"
+side="BOTH"
