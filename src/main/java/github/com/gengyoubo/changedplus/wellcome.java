@@ -13,7 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 //public 公用的函数
 //class 属性
 //Main 函数的名字，这里是文件的名字，对应了Main.java
-public class Main  {
+public class wellcome {
 
     @SubscribeEvent
     //static 静态函数
