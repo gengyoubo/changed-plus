@@ -1,6 +1,10 @@
 {
   "itemGroup.changedplus": "胶兽实验室：附加",
-  "item.changedplus.latex_sword": "胶剑"
+  "item.changedplus.latex_sword": "胶剑",
+  "item.changedplus.latex": "混合胶液",
+  "item.changedplus.latex_steak": "混合胶液棒",
+  "item.changedplus.long_latex_steak": "长的混合胶液棒",
+  "item.changedplus.long_latex_steak.detailed_info": "给生物施加击退5和1分钟的缓慢5"
 
 
 

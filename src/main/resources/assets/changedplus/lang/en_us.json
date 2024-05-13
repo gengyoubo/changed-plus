@@ -1,6 +1,11 @@
 {
   "itemGroup.changedplus": "changed：plus",
-  "item.changedplus.latex_sword": "latex_sword"
+  "item.changedplus.latex_sword": "latex_sword",
+  "item.changedplus.latex": "latex",
+  "item.changedplus.latex_steak": "latex_steak",
+  "item.changedplus.long_latex_steak": "long_latex_steak",
+  "item.changedplus.long_latex_steak.detailed_info": " - Apply knockback 5 and 1-minute slow 5 to creatures"
+
 
 
 
