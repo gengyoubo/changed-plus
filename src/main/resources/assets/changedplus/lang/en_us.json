@@ -4,8 +4,8 @@
   "item.changedplus.latex": "latex",
   "item.changedplus.latex_steak": "latex_steak",
   "item.changedplus.long_latex_steak": "long_latex_steak",
-  "item.changedplus.long_latex_steak.detailed_info": " - Apply knockback 5 and 1-minute slow 5 to creatures"
-
+  "item.changedplus.long_latex_steak.detailed_info": "Apply knockback 5 and 1-minute slow 5 to creatures",
+  "message.welcome":"Welcome to the world of latexes! %s, are you ready to be bestialized?"
 
 
 
