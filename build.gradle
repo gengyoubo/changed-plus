@@ -61,8 +61,11 @@ minecraft {
             // 请阅读：https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
             property 'forge.logging.console.level', 'debug'
 
+            // 逗号分隔的命名空间列表，用于加载游戏测试。空白 = 所有命名空间。
+            property 'forge.enabledGameTestNamespaces', 'examplemod'
+
             mods {
-                changedplus {
+                examplemod {
                     source sourceSets.main
                 }
             }
@@ -75,8 +78,56 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
+            // 逗号分隔的命名空间列表，用于加载游戏测试。空白 = 所有命名空间。
+            property 'forge.enabledGameTestNamespaces', 'examplemod'
+
             mods {
-                changedplus {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        // 此运行配置启动 GameTestServer 并运行所有已注册的游戏测试，然后退出。
+        // 默认情况下，当没有提供游戏测试时，服务器将崩溃。
+        // 游戏测试系统默认也启用了其他运行配置下的 /test 命令。
+        gameTestServer {
+            workingDirectory project.file('run')
+
+            // 用户开发环境中推荐的日志数据
+            // 标记可以按需添加/删除，以逗号分隔。
+            // "SCAN": 用于扫描模组。
+            // "REGISTRIES": 用于触发注册表事件。
+            // "REGISTRYDUMP": 用于获取所有注册表的内容。
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            // 控制台的推荐日志级别
+            // 您可以在这里设置各种级别。
+            // 请阅读：https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
+            property 'forge.logging.console.level', 'debug'
+
+            // 逗号分隔的命名空间列表，用于加载游戏测试。空白 = 所有命名空间。
+            property 'forge.enabledGameTestNamespaces', 'examplemod'
+
+            mods {
+                examplemod {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        data {
+            workingDirectory project.file('run')
+
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            property 'forge.logging.console.level', 'debug'
+
+            // 指定数据生成的模组 id、输出结果的资源和查找现有资源的位置。
+            args '--mod', 'examplemod', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+
+            mods {
+                examplemod {
                     source sourceSets.main
                 }
             }
@@ -119,12 +170,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "changedplus",
-                "Specification-Vendor"    : "gengyoubo",
+                "Specification-Title"     : "examplemod",
+                "Specification-Vendor"    : "examplemodsareus",
                 "Specification-Version"   : "1", // 我们是我们自己的版本 1
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : "gengyoubo",
+                "Implementation-Vendor"   : "examplemodsareus",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
