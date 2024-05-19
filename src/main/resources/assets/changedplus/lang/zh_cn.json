@@ -5,7 +5,12 @@
   "item.changedplus.latex_steak": "混合胶液棒",
   "item.changedplus.long_latex_steak": "长的混合胶液棒",
   "item.changedplus.long_latex_steak.detailed_info": "给生物施加击退5和1分钟的缓慢5",
-  "message.welcome": "欢迎来到胶兽的世界! %s, 你准备好被兽化了吗？"
+  "item.changedplus.latex_sword.tooltip": "当前的攻击力: %s",
+
+  "message.welcome": "欢迎来到胶兽的世界! %s, 你准备好被兽化了吗？",
+
+  "advancements.changedplus.root.title": "欢迎来到changedplus",
+  "advancements.changedplus.root.description": "感谢你安装此模组（千万不要和隔壁的addon模组搞混！！！）"
 
 
 
