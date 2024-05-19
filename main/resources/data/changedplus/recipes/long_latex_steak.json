@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      " X ",
+      " X ",
+      " X "
+    ],
+    "key": {
+      "X": {
+        "item": "changedplus:latex_steak"
+      }
+    },
+    "result": {
+      "item": "changedplus:long_latex_steak",
+      "count": 1
+    }
+}
