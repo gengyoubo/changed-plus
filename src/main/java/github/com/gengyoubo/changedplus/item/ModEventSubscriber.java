@@ -13,8 +13,8 @@ public class ModEventSubscriber {
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
         registerItem(event, new Latex_sword(), "latex_sword");
         registerItem(event, new Latex(), "latex");
-        registerItem(event, new latex_steak(), "latex_steak");
-        registerItem(event, new long_latex_steak(), "long_latex_steak");
+        registerItem(event, new latex_stick(), "latex_stick");
+        registerItem(event, new long_latex_stick(), "long_latex_stick");
         // 以registerItem的格式注册物品↑
     }
     //一键注册物品的属性
