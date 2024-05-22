@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: changedplus
+Specification-Vendor: gengyoubo
+Specification-Version: 1
+Implementation-Title: changed-plus
+Implementation-Version: 0.0.1
+Implementation-Vendor: gengyoubo
+Implementation-Timestamp: 2024-05-20T17:27:01+0900
+

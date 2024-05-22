@@ -1,6 +1,8 @@
 {
     "pack": {
+        "description": "changedplus resources",
         "pack_format": 9,
-        "description": "changedplus mod resources"
+        "forge:resource_pack_format": 8,
+        "forge:data_pack_format": 9
     }
 }

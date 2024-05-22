@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    " X ",
+    " Y "
+  ],
+  "key": {
+    "X": {
+      "item": "changedplus:latex"
+    },
+    "Y": {
+      "item": "changedplus:latex_stick"
+    }
+  },
+  "result": {
+    "item": "changedplus:latex_sword",
+    "count": 1
+  }
+}
+

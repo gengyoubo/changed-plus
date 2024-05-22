@@ -1,0 +1,21 @@
+{
+  "itemGroup.changedplus": "changed：plus",
+  "item.changedplus.latex_sword": "latex_sword",
+  "item.changedplus.latex": "latex",
+  "item.changedplus.latex_stick": "latex_stick",
+  "item.changedplus.long_latex_stick": "long_latex_stick",
+  "item.changedplus.long_latex_stick.detailed_info": "Apply knockback 5 and 1-minute slow 5 to creatures",
+  "item.changedplus.latex_sword.tooltip": "now damage: %s",
+  "item.changedplus.latex_sword.tooltip1": "now damage: %s",
+
+  "message.welcome":"Welcome to the world of latexes! %s, are you ready to be transfured?",
+
+  "advancements.changedplus.root.title": "Welcome to changedplus",
+  "advancements.changedplus.root.description": "Thank you for installing this mod (not to be confused with the addon mod!!!)"
+
+
+
+
+
+
+}
