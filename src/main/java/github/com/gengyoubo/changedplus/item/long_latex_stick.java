@@ -14,6 +14,7 @@ import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -28,7 +29,7 @@ public class long_latex_stick extends SwordItem {
     }
 
     @Override
-    public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
+    public boolean hurtEnemy(@NotNull ItemStack stack, @NotNull LivingEntity target, @NotNull LivingEntity attacker) {
         boolean flag = super.hurtEnemy(stack, target, attacker); // 调用父类的方法
 
         // 添加击退效果
@@ -52,8 +53,7 @@ public class long_latex_stick extends SwordItem {
 
     @SubscribeEvent
     public static void onEntityHurt(LivingHurtEvent event) {
-        if (event.getSource().getDirectEntity() instanceof LivingEntity) {
-            LivingEntity attacker = (LivingEntity) event.getSource().getDirectEntity();
+        if (event.getSource().getDirectEntity() instanceof LivingEntity attacker) {
             Item item = attacker.getMainHandItem().getItem();
 
             if (item instanceof long_latex_stick) {
@@ -61,9 +61,6 @@ public class long_latex_stick extends SwordItem {
                 if (variant != null) {
                     // 如果攻击者是latex player或者是NPC latex，增加攻击力
                     event.setAmount(event.getAmount() + ADDITIONAL_ATTACK_DAMAGE);
-                } else {
-                    // 如果不是，保持原攻击力
-                    // 这里不需要做任何操作，因为攻击力已经是默认值
                 }
             }
         }
@@ -92,7 +89,7 @@ public class long_latex_stick extends SwordItem {
     }
 
     @Override
-    public void appendHoverText(ItemStack stack, @Nullable Level world, List<Component> tooltip, TooltipFlag flag) {
+    public void appendHoverText(@NotNull ItemStack stack, @Nullable Level world, @NotNull List<Component> tooltip, @NotNull TooltipFlag flag) {
         super.appendHoverText(stack, world, tooltip, flag);
         CompoundTag tag = stack.getTag();
         int currentAttackDamage = BASE_ATTACK_DAMAGE;

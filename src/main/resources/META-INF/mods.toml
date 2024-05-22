@@ -29,7 +29,7 @@ displayURL="https://github.com/gengyoubo/changed-plus" #optional
 # 包含用于显示的标志的文件名（位于模组 JAR 的根目录中）
 logoFile="IMG_202404108181_400x400.png" #optional
 # 在模组 UI 中显示的文本字段
-credits="LtxProgrammer,普罗的“狼”窝(耿优博,FRZ天下NO 1)" #optional
+credits="LtxProgrammer,Foxyas,普罗的“狼”窝(耿优博,FRZ天下NO 1)" #optional
 # 在模组 UI 中显示的文本字段
 authors="耿悠博" #optional
 # 模组的描述文本（多行！）（#mandatory）
@@ -50,7 +50,7 @@ side="BOTH"
 
 [[dependencies.changedplus]]
 modId="changed"
-mandatory=false
-versionRange="[0.12,)" # Replace with the version you plan to mod
+mandatory=true
+versionRange="(,0.13.1]"
 ordering="NONE"
 side="BOTH"

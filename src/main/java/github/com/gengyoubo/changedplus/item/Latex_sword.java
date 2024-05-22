@@ -15,6 +15,7 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import java.util.List;
 
@@ -30,8 +31,7 @@ public class Latex_sword extends SwordItem {
 
     @SubscribeEvent
     public static void onEntityHurt(LivingHurtEvent event) {
-        if (event.getSource().getDirectEntity() instanceof LivingEntity) {
-            LivingEntity attacker = (LivingEntity) event.getSource().getDirectEntity();
+        if (event.getSource().getDirectEntity() instanceof LivingEntity attacker) {
             Item item = attacker.getMainHandItem().getItem();
 
             if (item instanceof Latex_sword) {
@@ -71,7 +71,7 @@ public class Latex_sword extends SwordItem {
     }
 
     @Override
-    public void appendHoverText(ItemStack stack, @Nullable Level world, List<Component> tooltip, TooltipFlag flag) {
+    public void appendHoverText(@NotNull ItemStack stack, @Nullable Level world, @NotNull List<Component> tooltip, @NotNull TooltipFlag flag) {
         super.appendHoverText(stack, world, tooltip, flag);
         CompoundTag tag = stack.getTag();
         int currentAttackDamage = BASE_ATTACK_DAMAGE;
