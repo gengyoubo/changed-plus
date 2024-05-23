@@ -1,6 +1,7 @@
 package github.com.gengyoubo.changedplus.item;
 
 import net.ltxprogrammer.changed.entity.variant.LatexVariant;
+import net.ltxprogrammer.changed.process.ProcessTransfur;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.LivingEntity;
@@ -98,4 +99,34 @@ public class long_latex_stick extends SwordItem {
         }
         tooltip.add(new TranslatableComponent("item.changedplus.latex_sword.tooltip1", currentAttackDamage));
     }
+
+    @SubscribeEvent
+    public static void transfur2(LivingHurtEvent event) {
+        // 获取受到伤害的实体
+        LivingEntity entity = event.getEntityLiving();
+
+        // 获取攻击者
+        LivingEntity attacker = (LivingEntity) event.getSource().getDirectEntity();
+
+        // 检查实体是否因为这次伤害而死亡
+        if (event.getAmount() >= entity.getMaxHealth()) {
+            // 检查攻击者是否持有long latex stick
+            if (attacker != null) {
+                Item item = attacker.getMainHandItem().getItem();
+                if (item instanceof long_latex_stick) {
+                    // 获取攻击者的LatexVariant实体变体
+                    LatexVariant<?> variant = LatexVariant.getEntityVariant(attacker);
+                    if (variant != null) {
+                        // 获取实体所在的世界
+                        Level level = entity.getLevel();
+
+                        // 阻止实体死亡，改为触发转换进程
+                        event.setCanceled(true);
+                        ProcessTransfur.transfur(entity, level, variant, false);
+                    }
+                }
+            }
+        }
+    }
 }
+

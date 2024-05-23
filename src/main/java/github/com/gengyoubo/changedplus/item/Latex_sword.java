@@ -1,6 +1,7 @@
 package github.com.gengyoubo.changedplus.item;
 
 import net.ltxprogrammer.changed.entity.variant.LatexVariant;
+import net.ltxprogrammer.changed.process.ProcessTransfur;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.TranslatableComponent;
@@ -22,7 +23,8 @@ import java.util.List;
 @Mod.EventBusSubscriber
 public class Latex_sword extends SwordItem {
     private static final int BASE_ATTACK_DAMAGE = 10; // 基础攻击力
-    private static final int ADDITIONAL_ATTACK_DAMAGE = 25; // 额外攻击力
+    private static final int ADDITIONAL_ATTACK_DAMAGE = 35; // 额外攻击力
+
 
     public Latex_sword() {
         super(Tiers.NETHERITE, BASE_ATTACK_DAMAGE, 0,
@@ -78,6 +80,36 @@ public class Latex_sword extends SwordItem {
         if (tag != null && tag.contains("CurrentAttackDamage")) {
             currentAttackDamage = tag.getInt("CurrentAttackDamage");
         }
-        tooltip.add(new TranslatableComponent("item.changedplus.latex_sword.tooltip",5 + currentAttackDamage));
+        tooltip.add(new TranslatableComponent("item.changedplus.latex_sword.tooltip", 5 + currentAttackDamage));
+    }
+
+    @SubscribeEvent
+    public static void transfur1(LivingHurtEvent event) {
+        // 获取受到伤害的实体
+        LivingEntity entity = event.getEntityLiving();
+
+        // 获取攻击者
+        LivingEntity attacker = (LivingEntity) event.getSource().getDirectEntity();
+
+        // 检查实体是否因为这次伤害而死亡
+        if (event.getAmount() >= entity.getMaxHealth()) {
+            // 检查攻击者是否持有Latex_sword
+            if (attacker != null) {
+                Item item = attacker.getMainHandItem().getItem();
+                if (item instanceof Latex_sword) {
+                    // 获取攻击者的LatexVariant实体变体
+                    LatexVariant<?> variant = LatexVariant.getEntityVariant(attacker);
+                    if (variant != null) {
+                        // 获取实体所在的世界
+                        Level level = entity.getLevel();
+
+                        // 阻止实体死亡，改为触发转换进程
+                        event.setCanceled(true);
+                        ProcessTransfur.transfur(entity, level, variant, false);
+                    }
+                }
+            }
+        }
     }
 }
+
