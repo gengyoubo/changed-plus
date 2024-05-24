@@ -14,7 +14,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = "0.0.0"
+version = "0.0.2"
 group = 'github.com.gengyoubo.changedplus'
 archivesBaseName = 'changedplus'
 
@@ -87,21 +87,6 @@ jar {
         ])
     }
 }
-mixin {
-    // 每个源代码集的refmap
-    add sourceSets.main, 'mixins.changedplus.refmap.json'
-
-    // 配置将添加到每个运行配置和Jar
-    config 'mixins.changedplus.json'
-
-    // 指定开发环境运行配置的选项
-    debug.verbose = true
-    debug.export = true
-    dumpTargetOnFailure = true
-
-    // 注解处理器的选项
-    quiet
-}
 
 repositories {
     flatDir {
@@ -116,9 +101,19 @@ repositories {
     }
 }
 
+mixin {
+    add sourceSets.main, "changed.refmap.json"
+
+    config "changed.mixins.json"
+    config "changed.compatibility.mixins.json"
+}
+
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.18.2-40.2.17'
-    implementation fg.deobf("net.ltxprogrammer.changed:Changed-m1.18.2-f40.2.0:v0.13.1")
+    minecraft 'net.minecraftforge:forge:1.18.2-40.2.21'
 
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    implementation fg.deobf("net.ltxprogrammer.changed:Changed-m1.18.2-f40.2.0:v0.13.1")
+
+
 }
