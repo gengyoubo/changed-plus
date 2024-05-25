@@ -8,6 +8,8 @@
   "item.changedplus.latex_sword.tooltip": "当前的攻击力: %s",
   "item.changedplus.latex_sword.tooltip1": "当前的攻击力 %s",
 
+  "block.changedplus.latex_generator":"胶液发电机",
+
   "message.welcome": "欢迎来到胶兽的世界! %s, 你准备好被兽化了吗？",
 
   "advancements.changedplus.root.title": "欢迎来到changedplus",

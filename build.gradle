@@ -92,12 +92,36 @@ repositories {
     flatDir {
         dirs 'libs'
     }
+    mavenLocal()
+    maven { // SlimeKnights and JEI
+        name 'DVS1 Maven FS'
+        url 'https://dvs1.progwml6.com/files/maven'
+    }
     maven {
         url "https://cursemaven.com"
     }
     maven {
         name = "Changed"
         url = "https://raw.githubusercontent.com/LtxProgrammer/Changed-Minecraft-Mod/master/mcmodsrepo/"
+    }
+    maven {
+        name 'Thermal Maven'
+        url 'https://maven.covers1624.net/'
+    }
+    maven { // TOP
+        url 'https://maven.tterrag.com/'
+    }
+    maven { // Patchouli
+        url 'https://maven.blamejared.com/'
+    }
+    maven { // Curios
+        url 'https://maven.theillusivec4.top/'
+    }
+    maven {
+        url "https://cfa2.cursemaven.com/"
+        content {
+            includeGroup "curse.maven"
+        }
     }
 }
 
@@ -114,6 +138,9 @@ dependencies {
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
     implementation fg.deobf("net.ltxprogrammer.changed:Changed-m1.18.2-f40.2.0:v0.13.1")
-
+    implementation fg.deobf("mezz.jei:jei-1.18.2:9.7.1.255")
+    implementation fg.deobf("com.teamcofh:cofh_core:1.18.2-9.2.0.+")
+    implementation fg.deobf("com.teamcofh:thermal_foundation:1.18.2-9.2.0.+")
+    implementation fg.deobf("com.teamcofh:thermal_expansion:1.18.2-9.2.0.+")
 
 }
