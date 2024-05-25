@@ -5,148 +5,607 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df56c267-6142-48c2-9a0d-1265e02083bb" name="游戏" comment="小更新">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/cofh_core-1.18.2-9.2.3.47.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/thermal_expansion-1.18.2-9.2.2.24.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/ltxprogrammer/changed/mixin/client/ClientLevelMixin$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/ClientRecipeBook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/HumanoidModel$Anonymous$bc56903161704a56a7a0e4489142d871.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/HumanoidModel$Anonymous$fdd463e69f2d452ea808b4d1d7317701.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/server/level/ServerEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/projectile/ProjectileUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/storage/PrimaryLevelData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/config/changed-client-2.toml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/config/jei-client.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/config/jei/ingredient-list-mod-sort-order.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/config/jei/ingredient-list-type-sort-order.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/config/jei/recipe-category-sort-order.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_09.43.46-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_09.47.11-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_09.49.14-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_09.54.30-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_10.00.28-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-24.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-25.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-26.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-27.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-28.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-29.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-30.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-31.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-32.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-33.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-34.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-35.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-36.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-37.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/DIM-1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/DIM-1/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/DIM1/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/DIM1/data/raids_end.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/data/capabilities.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/data/raids.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/level.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/poi/r.-1.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/poi/r.0.0.mca" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/serverconfig/jei-server.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/saves/新的世界/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/usernamecache.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/apatite_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/apatite_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/apatite_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/apatite_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/apple_block_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/apple_block_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/apple_block_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/apple_block_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/apple_block_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/apple_block_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/bamboo_block_end/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/bamboo_block_end/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/bamboo_block_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/bamboo_block_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/beetroot_block_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/beetroot_block_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/beetroot_block_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/beetroot_block_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/beetroot_block_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/beetroot_block_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/bitumen_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/bitumen_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/bronze_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/bronze_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/carrot_block_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/carrot_block_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/carrot_block_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/carrot_block_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/carrot_block_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/carrot_block_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/energy_cell_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/energy_cell_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/energy_cell_center/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/energy_cell_center/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/energy_cell_inner/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/energy_cell_inner/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/energy_cell_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/energy_cell_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/energy_cell_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/energy_cell_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/fluid_cell_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/fluid_cell_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/fluid_cell_center/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/fluid_cell_center/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/fluid_cell_inner/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/fluid_cell_inner/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/fluid_cell_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/fluid_cell_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/fluid_cell_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cells/fluid_cell_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/charcoal_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/charcoal_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/charge_bench/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/charge_bench/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/charge_bench_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/charge_bench_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/charge_bench_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/charge_bench_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/charge_bench_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/charge_bench_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/chiseled_rich_slag/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/chiseled_rich_slag/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/chiseled_slag/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/chiseled_slag/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cinnabar_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cinnabar_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cinnabar_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cinnabar_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/coal_coke_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/coal_coke_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/constantan_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/constantan_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cracked_rich_slag_bricks/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cracked_rich_slag_bricks/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cracked_slag_bricks/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cracked_slag_bricks/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cured_rubber_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/cured_rubber_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_apatite_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_apatite_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_cinnabar_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_cinnabar_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_lead_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_lead_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_nickel_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_nickel_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_niter_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_niter_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_ruby_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_ruby_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_sapphire_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_sapphire_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_silver_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_silver_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_sulfur_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_sulfur_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_tin_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/deepslate_tin_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector_side_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector_side_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector_top_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_collector_top_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_compost/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_compost/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_inside/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_inside/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_mixer/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_mixer/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_side_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_side_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_composter_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_east/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_east/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_south/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_south/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_top_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_top_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_west/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_fisher_west/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_hive_extractor/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_hive_extractor/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_hive_extractor_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_hive_extractor_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_hive_extractor_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_hive_extractor_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_hive_extractor_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_hive_extractor_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_hive_extractor_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_hive_extractor_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_nullifier/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_nullifier/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_nullifier_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_nullifier_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_nullifier_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_nullifier_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_nullifier_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_nullifier_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_nullifier_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_nullifier_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_potion_diffuser/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_potion_diffuser/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_potion_diffuser_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_potion_diffuser_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_potion_diffuser_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_potion_diffuser_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_potion_diffuser_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_potion_diffuser_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_potion_diffuser_side_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_potion_diffuser_side_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_potion_diffuser_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_potion_diffuser_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_rock_gen/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_rock_gen/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_rock_gen_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_rock_gen_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_rock_gen_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_rock_gen_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_rock_gen_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_rock_gen_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_rock_gen_side_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_rock_gen_side_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_rock_gen_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_rock_gen_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser_side_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser_side_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser_top_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_soil_infuser_top_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_tree_extractor/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_tree_extractor/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_tree_extractor_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_tree_extractor_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_tree_extractor_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_tree_extractor_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_tree_extractor_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_tree_extractor_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_tree_extractor_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_tree_extractor_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_tree_extractor_top_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_tree_extractor_top_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen_side_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen_side_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen_top_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/devices/device_water_gen_top_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_coil_rf_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_coil_rf_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_compression/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_compression/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_compression_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_compression_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_compression_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_compression_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_compression_side_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_compression_side_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_disenchantment/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_disenchantment/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_disenchantment_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_disenchantment_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_disenchantment_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_disenchantment_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_disenchantment_side_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_disenchantment_side_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_gourmand/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_gourmand/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_gourmand_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_gourmand_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_gourmand_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_gourmand_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_gourmand_side_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_gourmand_side_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_lapidary/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_lapidary/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_lapidary_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_lapidary_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_lapidary_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_lapidary_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_lapidary_side_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_lapidary_side_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_magmatic/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_magmatic/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_magmatic_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_magmatic_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_magmatic_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_magmatic_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_magmatic_side_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_magmatic_side_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_numismatic/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_numismatic/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_numismatic_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_numismatic_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_numismatic_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_numismatic_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_numismatic_side_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_numismatic_side_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_stirling/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_stirling/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_stirling_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_stirling_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_stirling_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_stirling_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_stirling_side_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/dynamos/dynamo_stirling_side_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/earth_tnt_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/earth_tnt_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/earth_tnt_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/earth_tnt_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/earth_tnt_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/earth_tnt_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/electrum_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/electrum_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ender_tnt_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ender_tnt_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ender_tnt_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ender_tnt_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ender_tnt_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ender_tnt_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/enderium_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/enderium_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/enderium_glass/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/enderium_glass/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/fire_tnt_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/fire_tnt_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/fire_tnt_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/fire_tnt_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/fire_tnt_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/fire_tnt_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/glowstone_tnt_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/glowstone_tnt_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/glowstone_tnt_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/glowstone_tnt_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/glowstone_tnt_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/glowstone_tnt_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/gunpowder_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/gunpowder_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ice_tnt_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ice_tnt_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ice_tnt_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ice_tnt_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ice_tnt_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ice_tnt_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/invar_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/invar_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lead_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lead_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lead_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lead_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lightning_tnt_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lightning_tnt_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lightning_tnt_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lightning_tnt_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lightning_tnt_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lightning_tnt_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lumium_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lumium_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lumium_glass/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/lumium_glass/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_bottler/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_bottler/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_bottler_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_bottler_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_brewer/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_brewer/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_brewer_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_brewer_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_centrifuge/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_centrifuge/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_centrifuge_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_centrifuge_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_chiller/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_chiller/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_chiller_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_chiller_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_crafter/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_crafter/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_crafter_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_crafter_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_crucible/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_crucible/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_crucible_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_crucible_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_crystallizer/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_crystallizer/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_crystallizer_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_crystallizer_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_frame_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_frame_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_frame_inner/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_frame_inner/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_frame_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_frame_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_frame_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_frame_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_furnace/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_furnace/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_furnace_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_furnace_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_insolator/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_insolator/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_insolator_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_insolator_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_press/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_press/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_press_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_press_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_pulverizer/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_pulverizer/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_pulverizer_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_pulverizer_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_pyrolyzer/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_pyrolyzer/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_pyrolyzer_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_pyrolyzer_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_refinery/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_refinery/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_refinery_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_refinery_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_sawmill/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_sawmill/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_sawmill_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_sawmill_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_smelter/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_smelter/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_smelter_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/machines/machine_smelter_active/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/nickel_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/nickel_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/nickel_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/nickel_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/niter_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/niter_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/niter_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/niter_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/nuke_tnt_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/nuke_tnt_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/nuke_tnt_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/nuke_tnt_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/nuke_tnt_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/nuke_tnt_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/obsidian_glass/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/obsidian_glass/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/oil_red_sand/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/oil_red_sand/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/oil_sand/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/oil_sand/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/phyto_tnt_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/phyto_tnt_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/phyto_tnt_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/phyto_tnt_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/phyto_tnt_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/phyto_tnt_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/polished_rich_slag/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/polished_rich_slag/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/polished_slag/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/polished_slag/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/potato_block_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/potato_block_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/potato_block_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/potato_block_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/potato_block_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/potato_block_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/raw_lead_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/raw_lead_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/raw_nickel_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/raw_nickel_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/raw_silver_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/raw_silver_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/raw_tin_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/raw_tin_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/redstone_tnt_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/redstone_tnt_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/redstone_tnt_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/redstone_tnt_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/redstone_tnt_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/redstone_tnt_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/rich_slag_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/rich_slag_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/rich_slag_bricks/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/rich_slag_bricks/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/rosin_block_end/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/rosin_block_end/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/rosin_block_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/rosin_block_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/rubber_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/rubber_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ruby_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ruby_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ruby_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/ruby_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sapphire_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sapphire_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sapphire_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sapphire_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sawdust_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sawdust_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/signalum_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/signalum_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/signalum_glass/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/signalum_glass/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/silver_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/silver_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/silver_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/silver_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/slag_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/slag_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/slag_bricks/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/slag_bricks/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/slime_tnt_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/slime_tnt_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/slime_tnt_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/slime_tnt_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/slime_tnt_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/slime_tnt_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sugar_cane_block_end/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sugar_cane_block_end/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sugar_cane_block_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sugar_cane_block_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sulfur_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sulfur_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sulfur_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/sulfur_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tar_block_end/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tar_block_end/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tar_block_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tar_block_side/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tin_block/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tin_block/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tin_ore/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tin_ore/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tinker_bench_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tinker_bench_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tinker_bench_ew/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tinker_bench_ew/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tinker_bench_n/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tinker_bench_n/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tinker_bench_s/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tinker_bench_s/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tinker_bench_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tinker_bench_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/config/changed-client-3.toml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/config/changed-client-4.toml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/config/changed-client-5.toml.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/config/cofh_core-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/config/cofh_core-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/config/thermal-client.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/config/thermal-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_14.52.57-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_14.54.03-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_14.56.48-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_15.01.26-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_15.04.18-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_15.12.17-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_15.16.21-client.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-38.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-39.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-40.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-41.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-42.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-43.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/changed-plus.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/changed-plus.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runGameTestServer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runGameTestServer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runServer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runServer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/com/gengyoubo/changedplus/item/Latex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/com/gengyoubo/changedplus/item/Latex_sword.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/com/gengyoubo/changedplus/item/latex_stick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/com/gengyoubo/changedplus/item/long_latex_stick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/changedplus/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/changedplus/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/changedplus/lang/zh_cn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/changedplus/lang/zh_cn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/jei-1.18.2-forge-10.2.1.1006.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/com/mojang/blaze3d/vertex/PoseStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/com/mojang/blaze3d/vertex/PoseStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/Camera.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/Camera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/Options.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/Options.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/color/block/BlockColors.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/color/block/BlockColors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/Gui.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/Gui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/PauseScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/PauseScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/TitleScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/TitleScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/inventory/AbstractContainerScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/inventory/AbstractContainerScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/inventory/EffectRenderingInventoryScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/inventory/EffectRenderingInventoryScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/inventory/InventoryScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/inventory/InventoryScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/HumanoidModel$Anonymous$d569813014d24b4daaa5dceda8b2bb75.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/HumanoidModel$Anonymous$d8f5a8492be045c5bf246a54d33ce8a3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/HumanoidModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/HumanoidModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/ModelPart$Cube.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/ModelPart$Cube.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/ModelPart.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/ModelPart.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/builders/CubeDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/builders/CubeDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/builders/CubeListBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/builders/CubeListBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/builders/PartDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/builders/PartDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/multiplayer/ClientLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/multiplayer/ClientLevel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/player/LocalPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/player/LocalPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/GameRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/GameRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/ItemBlockRenderTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/ItemBlockRenderTypes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/ItemInHandRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/ItemInHandRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/LevelRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/LevelRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/RenderType.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/RenderType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/EntityRenderDispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/EntityRenderDispatcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/EntityRenderers.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/EntityRenderers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/FallingBlockRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/FallingBlockRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/HumanoidMobRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/HumanoidMobRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/ItemRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/ItemRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/layers/CustomHeadLayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/layers/CustomHeadLayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/player/PlayerRenderer.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/player/PlayerRenderer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/texture/AtlasSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/texture/AtlasSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/texture/TextureAtlas.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/texture/TextureAtlas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/resources/SkinManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/resources/SkinManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/resources/SplashManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/resources/SplashManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/resources/model/ModelBakery.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/resources/model/ModelBakery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/tutorial/Tutorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/tutorial/Tutorial.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/data/worldgen/features/TreeFeatures.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/data/worldgen/features/TreeFeatures.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/server/level/ServerPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/server/level/ServerPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/server/level/ServerPlayerGameMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/server/level/ServerPlayerGameMode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/Entity.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/Entity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/LivingEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/LivingEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/Mob.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/Mob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/ai/goal/target/NearestAttackableTargetGoal.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/ai/goal/target/NearestAttackableTargetGoal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/ai/sensing/VillagerHostilesSensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/ai/sensing/VillagerHostilesSensor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/animal/IronGolem.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/animal/IronGolem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/npc/WanderingTrader.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/npc/WanderingTrader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/player/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/projectile/Arrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/projectile/Arrow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/ArmorItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/ArmorItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/ItemStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/ItemStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/ShovelItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/ShovelItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/enchantment/EnchantmentHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/enchantment/EnchantmentHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/Block.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/Block.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/PowderSnowBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/PowderSnowBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/SpreadingSnowyDirtBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/SpreadingSnowyDirtBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/WallBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/WallBlock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/BlockBehaviour$BlockStateBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/BlockBehaviour$BlockStateBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/BlockBehaviour$Properties.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/BlockBehaviour$Properties.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/BlockBehaviour.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/BlockBehaviour.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/StateDefinition$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/StateDefinition$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/StateHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/StateHolder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/levelgen/feature/SimpleBlockFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/levelgen/feature/SimpleBlockFeature.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/levelgen/structure/pieces/StructurePiecesBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/levelgen/structure/pieces/StructurePiecesBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/material/LavaFluid.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/material/LavaFluid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraftforge/client/ForgeHooksClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraftforge/client/ForgeHooksClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraftforge/client/gui/ForgeIngameGui.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraftforge/client/gui/ForgeIngameGui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraftforge/registries/GameData.class" beforeDir="false" afterPath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraftforge/registries/GameData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/com/mojang/blaze3d/vertex/PoseStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/Camera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/color/block/BlockColors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/Gui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/multiplayer/ClientLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/player/LocalPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/GameRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/ItemBlockRenderTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/LevelRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/RenderType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/ItemRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/player/PlayerRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/texture/TextureAtlas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/resources/model/ModelBakery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/data/worldgen/features/TreeFeatures.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/server/level/ServerPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/LivingEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/Mob.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/ai/goal/target/NearestAttackableTargetGoal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/ai/sensing/VillagerHostilesSensor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/animal/IronGolem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/npc/WanderingTrader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/player/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/projectile/Arrow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/ArmorItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/ItemStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/ShovelItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/Block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/PowderSnowBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/SpreadingSnowyDirtBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/WallBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/BlockBehaviour$BlockStateBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/BlockBehaviour$Properties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/BlockBehaviour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/StateDefinition$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/state/StateHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/levelgen/feature/SimpleBlockFeature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/levelgen/structure/pieces/StructurePiecesBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/material/LavaFluid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraftforge/client/ForgeHooksClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraftforge/client/gui/ForgeIngameGui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraftforge/registries/GameData.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/changed-client-1.toml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/changed-client-1.toml.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-10.log.gz" afterDir="false" />
@@ -158,11 +617,25 @@
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-16.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-16.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-17.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-17.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-18.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-18.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-19.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-19.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-20.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-20.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-22.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-22.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-23.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-23.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-24.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-24.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-25.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-25.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-26.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-26.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-27.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-27.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-28.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-28.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-29.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-29.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-30.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-30.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-32.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-32.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-33.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-33.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-34.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-34.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-35.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-35.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-36.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-36.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-37.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-37.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-6.log.gz" afterDir="false" />
@@ -176,16 +649,10 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界/entities/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界/entities/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界/entities/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/新的世界/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/新的世界/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/ChangedPlusMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/ChangedPlusMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/block/ModEventSubscriberBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/block/latex_generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/block/latex_generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
     </list>
     <list id="a2c7f2ee-319e-4d61-8dde-252f5b93d82a" name="更改" comment="增加了当被击杀时，被兽化" />
     <option name="SHOW_DIALOG" value="false" />
@@ -226,18 +693,18 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="changed-plus" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="forgegradle runs" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="changed-plus" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="changed-plus" type="f1a62948:ProjectNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="changed-plus" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
             </expand>
             <select />
@@ -328,6 +795,9 @@
     &quot;Gradle.changed-plus [addMixinsToJarJar].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.changed-plus [addMixinsToJar].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.changed-plus [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.changed-plus [cleanEclipseClasspath].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.changed-plus [cleanEclipseJdt].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.changed-plus [cleanEclipseProject].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.changed-plus [clean].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.changed-plus [genIntellijRuns].executor&quot;: &quot;Run&quot;,
     &quot;Gradle.changed-plus [mixinEclipseFactorypath].executor&quot;: &quot;Run&quot;,
@@ -372,8 +842,8 @@
       <recent name="github.com.gengyoubo.changedplus.advancements" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.runData">
-    <configuration name="changed-plus [addMixinsToJarJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="应用程序.runClient">
+    <configuration name="changed-plus [cleanEclipseClasspath]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -384,7 +854,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="addMixinsToJarJar" />
+            <option value="cleanEclipseClasspath" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -395,7 +865,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="changed-plus [addMixinsToJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="changed-plus [cleanEclipseJdt]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -406,7 +876,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="addMixinsToJar" />
+            <option value="cleanEclipseJdt" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -417,7 +887,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="changed-plus [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="changed-plus [cleanEclipseProject]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -428,7 +898,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="cleanEclipseProject" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -439,7 +909,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="changed-plus [mixinEclipseFactorypath]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="changed-plus [genIntellijRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -450,7 +920,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="mixinEclipseFactorypath" />
+            <option value="genIntellijRuns" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -485,11 +955,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.changed-plus [genIntellijRuns]" />
+        <item itemvalue="Gradle.changed-plus [cleanEclipseProject]" />
+        <item itemvalue="Gradle.changed-plus [cleanEclipseJdt]" />
+        <item itemvalue="Gradle.changed-plus [cleanEclipseClasspath]" />
         <item itemvalue="Gradle.changed-plus [mixinEclipseJdtApt]" />
-        <item itemvalue="Gradle.changed-plus [mixinEclipseFactorypath]" />
-        <item itemvalue="Gradle.changed-plus [build]" />
-        <item itemvalue="Gradle.changed-plus [addMixinsToJar]" />
-        <item itemvalue="Gradle.changed-plus [addMixinsToJarJar]" />
       </list>
     </recent_temporary>
   </component>

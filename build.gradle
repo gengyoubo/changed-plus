@@ -6,13 +6,11 @@ buildscript {
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
-        classpath 'org.spongepowered:mixingradle:0.7.+'
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
-apply plugin: 'org.spongepowered.mixin'
 
 version = "0.0.2"
 group = 'github.com.gengyoubo.changedplus'
@@ -125,17 +123,9 @@ repositories {
     }
 }
 
-mixin {
-    add sourceSets.main, "changed.refmap.json"
-
-    config "changed.mixins.json"
-    config "changed.compatibility.mixins.json"
-}
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.18.2-40.2.21'
-
-    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
     implementation fg.deobf("net.ltxprogrammer.changed:Changed-m1.18.2-f40.2.0:v0.13.1")
     implementation fg.deobf("mezz.jei:jei-1.18.2:9.7.1.255")

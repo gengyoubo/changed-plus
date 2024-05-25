@@ -1,5 +1,6 @@
 package github.com.gengyoubo.changedplus;
 
+//import github.com.gengyoubo.changedplus.block.latex_generator;
 import github.com.gengyoubo.changedplus.block.latex_generator;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
