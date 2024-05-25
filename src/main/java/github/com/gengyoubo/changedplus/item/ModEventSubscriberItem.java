@@ -1,5 +1,9 @@
 package github.com.gengyoubo.changedplus.item;
 
+import github.com.gengyoubo.changedplus.item.item.Latex;
+import github.com.gengyoubo.changedplus.item.item.Latex_sword;
+import github.com.gengyoubo.changedplus.item.item.latex_stick;
+import github.com.gengyoubo.changedplus.item.item.long_latex_stick;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

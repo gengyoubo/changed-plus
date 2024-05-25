@@ -8,6 +8,8 @@
   "item.changedplus.latex_sword.tooltip": "now damage: %s",
   "item.changedplus.latex_sword.tooltip1": "now damage: %s",
 
+  "block.changedplus.latex_generator":"latex_generator",
+
   "message.welcome":"Welcome to the world of latexes! %s, are you ready to be transfured?",
 
   "advancements.changedplus.root.title": "Welcome to changedplus",

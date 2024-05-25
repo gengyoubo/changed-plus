@@ -28,7 +28,3 @@ public class ChangedPlusTab extends CreativeModeTab {
         return new ItemStack(ForgeRegistries.ITEMS.getValue(new ResourceLocation("changedplus", "latex_sword")));
     }
 }
-
-
-
-
