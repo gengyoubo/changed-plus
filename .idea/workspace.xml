@@ -5,6 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df56c267-6142-48c2-9a0d-1265e02083bb" name="游戏" comment="小更新">
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/canned_soup/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/infuser_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/laser_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/laser_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/laser_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/tiles_blue_small/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/tiles_grayblue/1/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/tiles_grayblue/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/tiles_grayblue_bolted/1/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/tiles_grayblue_bolted/4/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/tiles_greenhouse/3/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/tiles_greenhouse/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/tiles_white/0/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/wall_blue_striped/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/changed/textures/blocks/white_lab_table/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/red_concrete/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/red_stained_glass/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/red_terracotta/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/redstone_lamp_on/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/rooted_dirt/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/sand/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/sandstone/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/scaffolding_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/scaffolding_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/sculk_sensor_tendril_active/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/small_dripleaf_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/smooth_stone/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/soul_campfire_log_lit/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/soul_lantern/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/spruce_log/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/spruce_trapdoor/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/stonecutter_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/stripped_dark_oak_log_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/stripped_warped_stem/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/stripped_warped_stem/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/sunflower_bottom/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/sunflower_top/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/sweet_berry_bush_stage0/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/sweet_berry_bush_stage3/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/tall_seagrass_bottom/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/tnt_side/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/warped_door_top/dark_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/white_concrete/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/white_glazed_terracotta/white_latex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/cache/minecraft/textures/block/yellow_wool/white_latex.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/apatite_block/dark_latex.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/apatite_block/white_latex.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/apatite_ore/dark_latex.png" afterDir="false" />
@@ -525,26 +570,12 @@
       <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tinker_bench_s/white_latex.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tinker_bench_top/dark_latex.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/cache/thermal/textures/block/tinker_bench_top/white_latex.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/config/changed-client-3.toml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/config/changed-client-4.toml.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/config/changed-client-5.toml.bak" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/config/cofh_core-client.toml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/config/cofh_core-common.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/config/jei-client.toml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/config/thermal-client.toml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run/config/thermal-common.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_14.52.57-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_14.54.03-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_14.56.48-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_15.01.26-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_15.04.18-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_15.12.17-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/crash-reports/crash-2024-05-25_15.16.21-client.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-38.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-39.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-40.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-41.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-42.log.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run/logs/2024-05-25-43.log.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run/logs/2024-06-01-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
@@ -552,32 +583,53 @@
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/changed-plus.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/changed-plus.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runClient.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runData.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runGameTestServer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runGameTestServer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/runServer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/runServer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/com/mojang/blaze3d/vertex/PoseStack.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/Camera.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/Options.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/color/block/BlockColors.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/Gui.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/PauseScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/TitleScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/inventory/AbstractContainerScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/inventory/EffectRenderingInventoryScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/gui/screens/inventory/InventoryScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/HumanoidModel$Anonymous$d569813014d24b4daaa5dceda8b2bb75.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/HumanoidModel$Anonymous$d8f5a8492be045c5bf246a54d33ce8a3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/HumanoidModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/ModelPart$Cube.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/ModelPart.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/builders/CubeDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/builders/CubeListBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/model/geom/builders/PartDefinition.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/multiplayer/ClientLevel.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/player/LocalPlayer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/GameRenderer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/ItemBlockRenderTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/ItemInHandRenderer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/LevelRenderer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/RenderType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/EntityRenderDispatcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/EntityRenderers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/FallingBlockRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/HumanoidMobRenderer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/ItemRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/layers/CustomHeadLayer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/entity/player/PlayerRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/texture/AtlasSet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/renderer/texture/TextureAtlas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/resources/SkinManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/resources/SplashManager.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/resources/model/ModelBakery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/client/tutorial/Tutorial.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/data/worldgen/features/TreeFeatures.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/server/level/ServerPlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/server/level/ServerPlayerGameMode.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/Entity.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/LivingEntity.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/entity/Mob.class" beforeDir="false" />
@@ -591,6 +643,7 @@
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/Item.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/ItemStack.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/ShovelItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/item/enchantment/EnchantmentHelper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/Block.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/PowderSnowBlock.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraft/world/level/block/SpreadingSnowyDirtBlock.class" beforeDir="false" />
@@ -606,42 +659,6 @@
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraftforge/client/ForgeHooksClient.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraftforge/client/gui/ForgeIngameGui.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.mixin.out/class/net/minecraftforge/registries/GameData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/changed-client-1.toml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/changed-client-1.toml.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-10.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-11.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-12.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-12.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-13.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-13.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-14.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-14.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-15.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-15.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-16.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-16.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-17.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-17.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-18.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-18.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-19.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-19.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-20.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-20.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-22.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-22.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-23.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-23.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-24.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-24.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-25.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-25.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-26.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-26.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-27.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-27.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-28.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-28.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-29.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-29.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-30.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-30.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-32.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-32.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-33.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-33.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-34.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-34.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-35.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-35.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-36.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-36.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-37.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-37.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-7.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-8.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-25-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-25-9.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -649,10 +666,13 @@
       <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/ChangedPlusMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/ChangedPlusMod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/block/ModEventSubscriberBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/block/latex_generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/block/latex_generator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/item/ChangedPlusTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/other/ChangedPlusTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/item/Latex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/item/Latex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/item/Latex_sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/item/Latex_sword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/item/ModEventSubscriberItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/other/ModEventSubcriber/ModEventSubscriberItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/item/latex_stick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/item/latex_stick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/item/long_latex_stick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/item/long_latex_stick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/welcome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/other/welcome.java" afterDir="false" />
     </list>
     <list id="a2c7f2ee-319e-4d61-8dde-252f5b93d82a" name="更改" comment="增加了当被击杀时，被兽化" />
     <option name="SHOW_DIALOG" value="false" />
@@ -682,29 +702,18 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="changed-plus" type="f1a62948:ProjectNode" />
+                <item name="changedplus" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="changed-plus" type="f1a62948:ProjectNode" />
+                <item name="changedplus" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="changed-plus" type="f1a62948:ProjectNode" />
+                <item name="changedplus" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="forgegradle runs" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="changed-plus" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="other" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="changed-plus" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -768,7 +777,7 @@
     </ignored-facets>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -781,54 +790,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Gradle.Build changed-plus.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.C:/Users/Administrator/Desktop/changed-plus [:prepareRunClient].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.C:/Users/Administrator/Desktop/changed-plus [:prepareRunData].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.C:/Users/Administrator/Desktop/changed-plus.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [:prepareRunClient].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [:prepareRunData].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [addMixinsToJarJar].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [addMixinsToJar].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [cleanEclipseClasspath].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [cleanEclipseJdt].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [cleanEclipseProject].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [genIntellijRuns].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [mixinEclipseFactorypath].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [mixinEclipseJdtApt].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [prepareRuns].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus [runData].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.changed-plus.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.加载 Gradle 依赖项.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.构建 changed-plus.executor&quot;: &quot;Run&quot;,
-    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/Desktop/Chinese-localization&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.runClient.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.runData.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Gradle.Build changed-plus.executor": "Run",
+    "Gradle.C:/Users/Administrator/Desktop/changed-plus [:prepareRunClient].executor": "Run",
+    "Gradle.C:/Users/Administrator/Desktop/changed-plus [:prepareRunData].executor": "Run",
+    "Gradle.C:/Users/Administrator/Desktop/changed-plus.executor": "Run",
+    "Gradle.changed-plus [:createMcpToSrg :createMcpToSrg :createMcpToSrg].executor": "Run",
+    "Gradle.changed-plus [:prepareRunClient].executor": "Run",
+    "Gradle.changed-plus [:prepareRunData].executor": "Run",
+    "Gradle.changed-plus [addMixinsToJarJar].executor": "Run",
+    "Gradle.changed-plus [addMixinsToJar].executor": "Run",
+    "Gradle.changed-plus [build].executor": "Run",
+    "Gradle.changed-plus [clean].executor": "Run",
+    "Gradle.changed-plus [genIntellijRuns].executor": "Run",
+    "Gradle.changed-plus [mixinEclipseFactorypath].executor": "Run",
+    "Gradle.changed-plus [mixinEclipseJdtApt].executor": "Run",
+    "Gradle.changed-plus [prepareRuns].executor": "Run",
+    "Gradle.changed-plus [runData].executor": "Run",
+    "Gradle.changed-plus.executor": "Run",
+    "Gradle.changedplus [runClient].executor": "Run",
+    "Gradle.加载 Gradle 依赖项.executor": "Run",
+    "Gradle.构建 changed-plus.executor": "Run",
+    "OverrideImplement.generate.javadoc": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Administrator/Desktop/Chinese-localization",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "项目",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.runClient.executor": "Run",
+    "应用程序.runData.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\changed-plus\src\main\java\block" />
@@ -842,8 +849,8 @@
       <recent name="github.com.gengyoubo.changedplus.advancements" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.runClient">
-    <configuration name="changed-plus [cleanEclipseClasspath]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.changedplus [runClient]">
+    <configuration name="changed-plus [addMixinsToJarJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -854,7 +861,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="cleanEclipseClasspath" />
+            <option value="addMixinsToJarJar" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -865,7 +872,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="changed-plus [cleanEclipseJdt]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="changed-plus [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -876,7 +883,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="cleanEclipseJdt" />
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -887,7 +894,7 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="changed-plus [cleanEclipseProject]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="changed-plus [mixinEclipseFactorypath]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -898,29 +905,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="cleanEclipseProject" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="changed-plus [genIntellijRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="genIntellijRuns" />
+            <option value="mixinEclipseFactorypath" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -953,13 +938,46 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="changedplus [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.changedplus [runClient]" />
+      <item itemvalue="Gradle.changed-plus [addMixinsToJarJar]" />
+      <item itemvalue="Gradle.changed-plus [build]" />
+      <item itemvalue="Gradle.changed-plus [mixinEclipseFactorypath]" />
+      <item itemvalue="Gradle.changed-plus [mixinEclipseJdtApt]" />
+      <item itemvalue="应用程序.runClient" />
+      <item itemvalue="应用程序.runData" />
+      <item itemvalue="应用程序.runGameTestServer" />
+      <item itemvalue="应用程序.runServer" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.changed-plus [genIntellijRuns]" />
-        <item itemvalue="Gradle.changed-plus [cleanEclipseProject]" />
-        <item itemvalue="Gradle.changed-plus [cleanEclipseJdt]" />
-        <item itemvalue="Gradle.changed-plus [cleanEclipseClasspath]" />
+        <item itemvalue="Gradle.changedplus [runClient]" />
+        <item itemvalue="Gradle.changed-plus [build]" />
         <item itemvalue="Gradle.changed-plus [mixinEclipseJdtApt]" />
+        <item itemvalue="Gradle.changed-plus [mixinEclipseFactorypath]" />
+        <item itemvalue="Gradle.changed-plus [addMixinsToJarJar]" />
       </list>
     </recent_temporary>
   </component>
@@ -1111,9 +1129,7 @@
       <workItem from="1716562724560" duration="361000" />
       <workItem from="1716563102075" duration="27000" />
       <workItem from="1716563136689" duration="3888000" />
-      <workItem from="1716567090965" duration="1875000" />
-      <workItem from="1716591204268" duration="14934000" />
-      <workItem from="1716613978409" duration="1410000" />
+      <workItem from="1716567090965" duration="1595000" />
     </task>
     <task id="LOCAL-00011" summary="小更新">
       <option name="closed" value="true" />
@@ -1123,15 +1139,7 @@
       <option name="project" value="LOCAL" />
       <updated>1716479549136</updated>
     </task>
-    <task id="LOCAL-00012" summary="小更新">
-      <option name="closed" value="true" />
-      <created>1716590306528</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1716590306528</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="12" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -1159,6 +1167,7 @@
     <MESSAGE value="小更新" />
     <option name="LAST_COMMIT_MESSAGE" value="小更新" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

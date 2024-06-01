@@ -1,6 +1,6 @@
-package github.com.gengyoubo.changedplus.item.item;
+package github.com.gengyoubo.changedplus.item;
 
-import github.com.gengyoubo.changedplus.item.ChangedPlusTab;
+import github.com.gengyoubo.changedplus.other.ChangedPlusTab;
 import net.ltxprogrammer.changed.entity.variant.LatexVariant;
 import net.ltxprogrammer.changed.process.ProcessTransfur;
 import net.minecraft.nbt.CompoundTag;

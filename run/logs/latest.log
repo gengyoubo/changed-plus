@@ -1,198 +1,578 @@
-[255æœˆ2024 14:38:06.211] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 1.18, --assetsDir, C:\Users\Administrator\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, --mod, changedplus, --all, --output, C:\Users\Administrator\Desktop\changed-plus\src\generated\resources, --existing, C:\Users\Administrator\Desktop\changed-plus\src\main\resources]
-[255æœˆ2024 14:38:06.219] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.11 by Eclipse Adoptium
-[255æœˆ2024 14:38:06.380] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2324!/ Service=ModLauncher Env=CLIENT
-[255æœˆ2024 14:38:06.888] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.2.21\c6fe3441af3b7980be1ed98298708883124cc3bf\javafmllanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[255æœˆ2024 14:38:06.893] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.2.21\37b9f1843f8fe0387c9e7202cc7752d71d9a8b3d\lowcodelanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[255æœˆ2024 14:38:06.899] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.2-40.2.21\5c1c2d561428e5b162d0b6682f9c8f39141a71f4\mclanguage-1.18.2-40.2.21.jar is missing mods.toml file
-[255æœˆ2024 14:38:06.904] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.2-40.2.21\2fff7bebefc2a17d48339a2595ece9f8694970b8\fmlcore-1.18.2-40.2.21.jar is missing mods.toml file
-[255æœˆ2024 14:38:07.201] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[255æœˆ2024 14:38:09.632] [main/WARN] [mixin/]: Compatibility level JAVA_17 specified by mixins.cofhcore.json is higher than the maximum level supported by this version of mixin (JAVA_13).
-[255æœˆ2024 14:38:09.633] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[255æœˆ2024 14:38:09.645] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\Administrator\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18, --mod, changedplus, --all, --output, C:\Users\Administrator\Desktop\changed-plus\src\generated\resources, --existing, C:\Users\Administrator\Desktop\changed-plus\src\main\resources]
-[255æœˆ2024 14:38:09.749] [main/INFO] [mixin/]: Attempting to load Fernflower decompiler (Threaded mode)
-[255æœˆ2024 14:38:09.751] [main/INFO] [mixin/]: Fernflower could not be loaded, exported classes will not be decompiled. NoClassDefFoundError: org/jetbrains/java/decompiler/main/extern/IResultSaver
-[255æœˆ2024 14:38:09.812] [main/INFO] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[255æœˆ2024 14:38:09.813] [main/INFO] [mixin/]: Selecting config mixins.cofhcore.json
-[255æœˆ2024 14:38:10.205] [main/INFO] [mixin/]: Remapping refMap mixins.cofhcore.refmap.json using C:\Users\Administrator\Desktop\changed-plus\build\createSrgToMcp\output.srg
-[255æœˆ2024 14:38:10.206] [main/INFO] [mixin/]: Selecting config changed.mixins.json
-[255æœˆ2024 14:38:10.211] [main/INFO] [mixin/]: Remapping refMap changed.refmap.json using C:\Users\Administrator\Desktop\changed-plus\build\createSrgToMcp\output.srg
-[255æœˆ2024 14:38:10.211] [main/INFO] [mixin/]: Selecting config changed.compatibility.mixins.json
-[255æœˆ2024 14:38:10.227] [main/INFO] [mixin/]: Remapping refMap changed.refmap.json using C:\Users\Administrator\Desktop\changed-plus\build\createSrgToMcp\output.srg
-[255æœˆ2024 14:38:10.228] [main/INFO] [mixin/]: Preparing mixins.cofhcore.json (3)
-[255æœˆ2024 14:38:10.355] [main/INFO] [mixin/]: Preparing changed.mixins.json (75)
-[255æœˆ2024 14:38:10.687] [main/INFO] [mixin/]: Preparing changed.compatibility.mixins.json (13)
-[255æœˆ2024 14:38:10.801] [main/INFO] [mixin/]: Prepared 78 mixins in 0.987 sec (12.7ms avg) (0ms load, 0ms transform, 0ms plugin)
-[255æœˆ2024 14:38:10.910] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [changedplus]
-[255æœˆ2024 14:38:11.000] [main/INFO] [mixin/]: Mixing GameDataMixin from changed.mixins.json into net.minecraftforge.registries.GameData
-[255æœˆ2024 14:38:11.140] [main/INFO] [mixin/]: Mixing block.BlockMixin from changed.mixins.json into net.minecraft.world.level.block.Block
-[255æœˆ2024 14:38:11.500] [main/INFO] [mixin/]: Mixing block.BlockBehaviourMixin from changed.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour
-[255æœˆ2024 14:38:11.501] [main/INFO] [mixin/]: Renaming synthetic method lambda$use$0(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/BlockPos;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$use$0$0 in changed.mixins.json:block.BlockBehaviourMixin
-[255æœˆ2024 14:38:11.605] [main/INFO] [mixin/]: Mixing block.BlockBehaviourMixinFixer from changed.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour
-[255æœˆ2024 14:38:11.895] [main/INFO] [mixin/]: Mixing LivingEntityMixin from mixins.cofhcore.json into net.minecraft.world.entity.LivingEntity
-[255æœˆ2024 14:38:11.919] [main/INFO] [mixin/]: Mixing entity.LivingEntityMixin from changed.mixins.json into net.minecraft.world.entity.LivingEntity
-[255æœˆ2024 14:38:11.928] [main/INFO] [mixin/]: Renaming synthetic method lambda$tick$7(Lnet/minecraft/world/entity/player/Player;)Ljava/lang/Runnable; to mdb67844$lambda$tick$7$0 in changed.mixins.json:entity.LivingEntityMixin
-[255æœˆ2024 14:38:11.928] [main/INFO] [mixin/]: Renaming synthetic method lambda$tick$6(Lnet/minecraft/world/entity/player/Player;)V to mdb67844$lambda$tick$6$1 in changed.mixins.json:entity.LivingEntityMixin
-[255æœˆ2024 14:38:11.929] [main/INFO] [mixin/]: Renaming synthetic method lambda$isVisuallySwimming$5(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$isVisuallySwimming$5$2 in changed.mixins.json:entity.LivingEntityMixin
-[255æœˆ2024 14:38:11.932] [main/INFO] [mixin/]: Renaming synthetic method lambda$getEffect$4(Lnet/minecraft/world/effect/MobEffect;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$getEffect$4$3 in changed.mixins.json:entity.LivingEntityMixin
-[255æœˆ2024 14:38:11.932] [main/INFO] [mixin/]: Renaming synthetic method lambda$hasEffect$3(Lnet/minecraft/world/effect/MobEffect;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$hasEffect$3$4 in changed.mixins.json:entity.LivingEntityMixin
-[255æœˆ2024 14:38:11.934] [main/INFO] [mixin/]: Renaming synthetic method lambda$getJumpPower$2(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariant;)Ljava/lang/Float; to mdb67844$lambda$getJumpPower$2$5 in changed.mixins.json:entity.LivingEntityMixin
-[255æœˆ2024 14:38:11.935] [main/INFO] [mixin/]: Renaming synthetic method lambda$onClimbable$1(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$onClimbable$1$6 in changed.mixins.json:entity.LivingEntityMixin
-[255æœˆ2024 14:38:11.935] [main/INFO] [mixin/]: Renaming synthetic method lambda$updateFallFlying$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/world/entity/player/Player;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$updateFallFlying$0$7 in changed.mixins.json:entity.LivingEntityMixin
-[255æœˆ2024 14:38:12.267] [main/INFO] [mixin/]: Mixing entity.EntityMixin from changed.mixins.json into net.minecraft.world.entity.Entity
-[255æœˆ2024 14:38:12.268] [main/INFO] [mixin/]: Renaming synthetic method lambda$canEnterPose$8(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/Pose;Lnet/ltxprogrammer/changed/entity/variant/LatexVariant;)Ljava/util/Optional; to mdb67844$lambda$canEnterPose$8$0 in changed.mixins.json:entity.EntityMixin
-[255æœˆ2024 14:38:12.269] [main/INFO] [mixin/]: Renaming synthetic method lambda$isInWall$7(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/phys/AABB;Lnet/minecraft/core/BlockPos;)Z to mdb67844$lambda$isInWall$7$1 in changed.mixins.json:entity.EntityMixin
-[255æœˆ2024 14:38:12.269] [main/INFO] [mixin/]: Renaming synthetic method lambda$getEyePosition$6(FLorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/entity/player/Player;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$getEyePosition$6$2 in changed.mixins.json:entity.EntityMixin
-[255æœˆ2024 14:38:12.269] [main/INFO] [mixin/]: Renaming synthetic method lambda$getEyePosition$5(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/entity/player/Player;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$getEyePosition$5$3 in changed.mixins.json:entity.EntityMixin
-[255æœˆ2024 14:38:12.269] [main/INFO] [mixin/]: Renaming synthetic method lambda$getPassengersRidingOffset$4(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$getPassengersRidingOffset$4$4 in changed.mixins.json:entity.EntityMixin
-[255æœˆ2024 14:38:12.270] [main/INFO] [mixin/]: Renaming synthetic method lambda$interact$3(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$interact$3$5 in changed.mixins.json:entity.EntityMixin
-[255æœˆ2024 14:38:12.270] [main/INFO] [mixin/]: Renaming synthetic method lambda$getEyeHeight$2(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/entity/Pose;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$getEyeHeight$2$6 in changed.mixins.json:entity.EntityMixin
-[255æœˆ2024 14:38:12.270] [main/INFO] [mixin/]: Renaming synthetic method lambda$isSwimming$1(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$isSwimming$1$7 in changed.mixins.json:entity.EntityMixin
-[255æœˆ2024 14:38:12.271] [main/INFO] [mixin/]: Renaming synthetic method lambda$getTicksRequiredToFreeze$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$getTicksRequiredToFreeze$0$8 in changed.mixins.json:entity.EntityMixin
-[255æœˆ2024 14:38:12.428] [main/INFO] [mixin/]: Mixing entity.PlayerMixin from changed.mixins.json into net.minecraft.world.entity.player.Player
-[255æœˆ2024 14:38:12.432] [main/INFO] [mixin/]: Renaming synthetic method lambda$getDimensions$2(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/minecraft/world/entity/Pose;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$getDimensions$2$0 in changed.mixins.json:entity.PlayerMixin
-[255æœˆ2024 14:38:12.432] [main/INFO] [mixin/]: Renaming synthetic method lambda$orNotHurt$1(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$orNotHurt$1$1 in changed.mixins.json:entity.PlayerMixin
-[255æœˆ2024 14:38:12.432] [main/INFO] [mixin/]: Renaming synthetic method lambda$getMyRidingOffset$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$getMyRidingOffset$0$2 in changed.mixins.json:entity.PlayerMixin
-[255æœˆ2024 14:38:12.557] [main/INFO] [mixin/]: Mixing block.BlockStateBaseMixin from changed.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase
-[255æœˆ2024 14:38:12.593] [main/INFO] [mixin/]: Mixing StateHolderMixin from changed.mixins.json into net.minecraft.world.level.block.state.StateHolder
-[255æœˆ2024 14:38:12.684] [main/INFO] [mixin/]: Mixing item.ItemMixin from changed.mixins.json into net.minecraft.world.item.Item
-[255æœˆ2024 14:38:12.685] [main/INFO] [mixin/]: Renaming synthetic method lambda$use$1(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$use$1$0 in changed.mixins.json:item.ItemMixin
-[255æœˆ2024 14:38:12.685] [main/INFO] [mixin/]: Renaming synthetic method lambda$use$0(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/ability/AccessSaddleAbilityInstance;)V to mdb67844$lambda$use$0$1 in changed.mixins.json:item.ItemMixin
-[255æœˆ2024 14:38:12.944] [main/INFO] [mixin/]: Mixing block.SpreadingSnowyDirtBlockMixin from changed.mixins.json into net.minecraft.world.level.block.SpreadingSnowyDirtBlock
-[255æœˆ2024 14:38:13.094] [main/INFO] [mixin/]: Mixing block.WallBlockMixin from changed.mixins.json into net.minecraft.world.level.block.WallBlock
-[255æœˆ2024 14:38:13.095] [main/INFO] [mixin/]: Renaming synthetic method lambda$makeShapes$0(Lnet/ltxprogrammer/changed/entity/LatexType;Lcom/google/common/collect/ImmutableMap$Builder;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/phys/shapes/VoxelShape;)V to mdb67844$lambda$makeShapes$0$0 in changed.mixins.json:block.WallBlockMixin
-[255æœˆ2024 14:38:13.231] [main/INFO] [mixin/]: Mixing block.PowderSnowBlockMixin from changed.mixins.json into net.minecraft.world.level.block.PowderSnowBlock
-[255æœˆ2024 14:38:13.232] [main/INFO] [mixin/]: Renaming synthetic method lambda$canEntityWalkOnPowderSnow$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$canEntityWalkOnPowderSnow$0$0 in changed.mixins.json:block.PowderSnowBlockMixin
-[255æœˆ2024 14:38:13.303] [main/INFO] [mixin/]: Mixing block.BlockPropertiesMixin from changed.mixins.json into net.minecraft.world.level.block.state.BlockBehaviour$Properties
-[255æœˆ2024 14:38:13.304] [main/INFO] [mixin/]: Renaming synthetic method lambda$initDirectColor$1(Ljava/util/function/Function;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/MaterialColor; to mdb67844$lambda$initDirectColor$1$0 in changed.mixins.json:block.BlockPropertiesMixin
-[255æœˆ2024 14:38:13.304] [main/INFO] [mixin/]: Renaming synthetic method lambda$initDirectColor$0(Ljava/util/function/Function;Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/MaterialColor; to mdb67844$lambda$initDirectColor$0$1 in changed.mixins.json:block.BlockPropertiesMixin
-[255æœˆ2024 14:38:13.438] [main/INFO] [mixin/]: Mixing block.StateDefinitionMixin from changed.mixins.json into net.minecraft.world.level.block.state.StateDefinition$Builder
-[255æœˆ2024 14:38:13.438] [main/INFO] [mixin/]: Renaming synthetic method lambda$create$1(Lnet/minecraft/world/level/block/Block;Ljava/lang/Class;)Z to mdb67844$lambda$create$1$0 in changed.mixins.json:block.StateDefinitionMixin
-[255æœˆ2024 14:38:13.439] [main/INFO] [mixin/]: Renaming synthetic method lambda$static$0(Ljava/util/ArrayList;)V to mdb67844$lambda$static$0$1 in changed.mixins.json:block.StateDefinitionMixin
-[255æœˆ2024 14:38:13.518] [main/INFO] [mixin/]: Mixing item.ArmorItemMixin from changed.mixins.json into net.minecraft.world.item.ArmorItem
-[255æœˆ2024 14:38:13.568] [main/INFO] [mixin/]: Mixing entity.MobMixin from changed.mixins.json into net.minecraft.world.entity.Mob
-[255æœˆ2024 14:38:13.570] [main/INFO] [mixin/]: Renaming synthetic method lambda$registerGoals$0(Lnet/minecraft/world/entity/animal/IronGolem;Lnet/minecraft/world/entity/LivingEntity;)Z to mdb67844$lambda$registerGoals$0$0 in changed.mixins.json:entity.MobMixin
-[255æœˆ2024 14:38:13.628] [main/INFO] [mixin/]: Mixing entity.ArrowMixin from changed.mixins.json into net.minecraft.world.entity.projectile.Arrow
-[255æœˆ2024 14:38:13.780] [main/INFO] [mixin/]: Mixing item.ItemStackMixin from changed.mixins.json into net.minecraft.world.item.ItemStack
-[255æœˆ2024 14:38:13.781] [main/INFO] [mixin/]: Renaming synthetic method lambda$canEquip$1(Z)Ljava/lang/Boolean; to mdb67844$lambda$canEquip$1$0 in changed.mixins.json:item.ItemStackMixin
-[255æœˆ2024 14:38:13.781] [main/INFO] [mixin/]: Renaming synthetic method lambda$canEquip$0(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;ZLnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)Ljava/lang/Boolean; to mdb67844$lambda$canEquip$0$1 in changed.mixins.json:item.ItemStackMixin
-[255æœˆ2024 14:38:13.825] [main/INFO] [mixin/]: Mixing entity.NearestAttackableTargetGoalMixin from changed.mixins.json into net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal
-[255æœˆ2024 14:38:13.825] [main/INFO] [mixin/]: Renaming synthetic method lambda$noTargetScary$2(Lnet/minecraft/world/entity/PathfinderMob;Lnet/minecraft/world/entity/LivingEntity;)Z to mdb67844$lambda$noTargetScary$2$0 in changed.mixins.json:entity.NearestAttackableTargetGoalMixin
-[255æœˆ2024 14:38:13.826] [main/INFO] [mixin/]: Renaming synthetic method lambda$noTargetScary$1(Lnet/minecraft/world/entity/PathfinderMob;Lnet/ltxprogrammer/changed/entity/variant/LatexVariant;)Ljava/lang/Boolean; to mdb67844$lambda$noTargetScary$1$1 in changed.mixins.json:entity.NearestAttackableTargetGoalMixin
-[255æœˆ2024 14:38:13.826] [main/INFO] [mixin/]: Renaming synthetic method lambda$noTargetScary$0(Lnet/minecraft/world/entity/PathfinderMob;Ljava/lang/Class;)Z to mdb67844$lambda$noTargetScary$0$2 in changed.mixins.json:entity.NearestAttackableTargetGoalMixin
-[255æœˆ2024 14:38:14.126] [main/INFO] [mixin/]: Mixing fluid.LavaFluidMixin from changed.mixins.json into net.minecraft.world.level.material.LavaFluid
-[255æœˆ2024 14:38:14.793] [main/INFO] [mixin/]: Mixing entity.IronGolemMixin from changed.mixins.json into net.minecraft.world.entity.animal.IronGolem
-[255æœˆ2024 14:38:14.794] [main/INFO] [mixin/]: Renaming synthetic method lambda$registerGoals$0(Lnet/minecraft/world/entity/animal/IronGolem;Lnet/minecraft/world/entity/LivingEntity;)Z to mdb67844$lambda$registerGoals$0$0 in changed.mixins.json:entity.IronGolemMixin
-[255æœˆ2024 14:38:16.317] [main/INFO] [mixin/]: Mixing block.SimpleBlockFeatureMixin from changed.mixins.json into net.minecraft.world.level.levelgen.feature.SimpleBlockFeature
-[255æœˆ2024 14:38:17.041] [main/INFO] [mixin/]: Mixing entity.ServerPlayerMixin from changed.mixins.json into net.minecraft.server.level.ServerPlayer
-[255æœˆ2024 14:38:17.041] [main/INFO] [mixin/]: Renaming synthetic method lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$addAdditionalSaveData$3$0 in changed.mixins.json:entity.ServerPlayerMixin
-[255æœˆ2024 14:38:17.041] [main/INFO] [mixin/]: Renaming synthetic method lambda$readAdditionalSaveData$2(Lnet/minecraft/nbt/CompoundTag;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$readAdditionalSaveData$2$1 in changed.mixins.json:entity.ServerPlayerMixin
-[255æœˆ2024 14:38:17.042] [main/INFO] [mixin/]: Renaming synthetic method lambda$readAdditionalSaveData$1(Lnet/minecraft/nbt/CompoundTag;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$readAdditionalSaveData$1$2 in changed.mixins.json:entity.ServerPlayerMixin
-[255æœˆ2024 14:38:17.042] [main/INFO] [mixin/]: Renaming synthetic method lambda$restoreFrom$0(Lnet/minecraft/server/level/ServerPlayer;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$restoreFrom$0$3 in changed.mixins.json:entity.ServerPlayerMixin
-[255æœˆ2024 14:38:17.699] [main/INFO] [mixin/]: Mixing entity.WanderingTraderMixin from changed.mixins.json into net.minecraft.world.entity.npc.WanderingTrader
-[255æœˆ2024 14:38:17.702] [main/INFO] [mixin/]: Renaming synthetic method lambda$registerGoals$0(Lnet/minecraft/world/entity/LivingEntity;)Z to mdb67844$lambda$registerGoals$0$0 in changed.mixins.json:entity.WanderingTraderMixin
-[255æœˆ2024 14:38:17.942] [main/INFO] [mixin/]: Mixing TreeFeaturesMixin from changed.mixins.json into net.minecraft.data.worldgen.features.TreeFeatures
-[255æœˆ2024 14:38:18.024] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `changed` for name `deferred_state_provider`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
-[255æœˆ2024 14:38:18.024] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `changed` for name `mixed_state_provider`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
-[255æœˆ2024 14:38:18.375] [main/INFO] [mixin/]: Mixing StructurePiecesBuilderMixin from changed.mixins.json into net.minecraft.world.level.levelgen.structure.pieces.StructurePiecesBuilder
-[255æœˆ2024 14:38:20.543] [main/INFO] [mixin/]: Mixing item.ShovelItemMixin from changed.mixins.json into net.minecraft.world.item.ShovelItem
-[255æœˆ2024 14:38:20.560] [main/INFO] [mixin/]: Renaming synthetic method lambda$useOn$0(Lnet/minecraft/world/item/context/UseOnContext;Lnet/minecraft/world/entity/player/Player;)V to mdb67844$lambda$useOn$0$0 in changed.mixins.json:item.ShovelItemMixin
-[255æœˆ2024 14:38:21.837] [main/INFO] [mixin/]: Mixing entity.VillagerHostilesSensorMixin from changed.mixins.json into net.minecraft.world.entity.ai.sensing.VillagerHostilesSensor
-[255æœˆ2024 14:38:22.879] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
-[255æœˆ2024 14:38:22.884] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.21 Initialized
-[255æœˆ2024 14:38:23.023] [modloading-worker-0/INFO] [mixin/]: Mixing client.ClientLevelMixin from changed.mixins.json into net.minecraft.client.multiplayer.ClientLevel
-[255æœˆ2024 14:38:23.086] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$playLocalSound$2(Ljava/util/concurrent/atomic/AtomicBoolean;Lnet/minecraft/sounds/SoundEvent;FFZLcom/mojang/datafixers/util/Pair;)V to mdb67844$lambda$playLocalSound$2$0 in changed.mixins.json:client.ClientLevelMixin
-[255æœˆ2024 14:38:23.086] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$playLocalSound$1(Lnet/minecraft/sounds/SoundEvent;FFZLcom/mojang/datafixers/util/Pair;)V to mdb67844$lambda$playLocalSound$1$1 in changed.mixins.json:client.ClientLevelMixin
-[255æœˆ2024 14:38:23.086] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$getBlockStatePairsIfLoaded$0(Lnet/minecraft/core/BlockPos;)Lcom/mojang/datafixers/util/Pair; to mdb67844$lambda$getBlockStatePairsIfLoaded$0$2 in changed.mixins.json:client.ClientLevelMixin
-[255æœˆ2024 14:38:23.511] [modloading-worker-0/INFO] [mixin/]: Mixing entity.LocalPlayerMixin from changed.mixins.json into net.minecraft.client.player.LocalPlayer
-[255æœˆ2024 14:38:23.514] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$isMovingSlowly$2(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$isMovingSlowly$2$0 in changed.mixins.json:entity.LocalPlayerMixin
-[255æœˆ2024 14:38:23.515] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$aiStep$1(Lnet/minecraft/client/player/LocalPlayer;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$aiStep$1$1 in changed.mixins.json:entity.LocalPlayerMixin
-[255æœˆ2024 14:38:23.515] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$getWaterVision$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$getWaterVision$0$2 in changed.mixins.json:entity.LocalPlayerMixin
-[255æœˆ2024 14:38:23.989] [modloading-worker-0/INFO] [mixin/]: Mixing render.PoseStackMixin from changed.mixins.json into com.mojang.blaze3d.vertex.PoseStack
-[255æœˆ2024 14:38:24.001] [modloading-worker-0/INFO] [mixin/]: Mixing render.CameraMixin from changed.mixins.json into net.minecraft.client.Camera
-[255æœˆ2024 14:38:24.002] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$setPositionAndAdjustForVariant$1(Lnet/minecraft/client/Camera;Lnet/minecraft/world/phys/Vec3;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$setPositionAndAdjustForVariant$1$0 in changed.mixins.json:render.CameraMixin
-[255æœˆ2024 14:38:24.003] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$animateCamera$0(FLnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$animateCamera$0$1 in changed.mixins.json:render.CameraMixin
-[255æœˆ2024 14:38:24.119] [modloading-worker-0/INFO] [mixin/]: Mixing render.PlayerRendererMixin from changed.mixins.json into net.minecraft.client.renderer.entity.player.PlayerRenderer
-[255æœˆ2024 14:38:24.525] [modloading-worker-0/INFO] [mixin/]: Mixing block.BlockColorsMixin from changed.mixins.json into net.minecraft.client.color.block.BlockColors
-[255æœˆ2024 14:38:24.655] [modloading-worker-0/INFO] [mixin/]: Mixing LevelRendererMixin from mixins.cofhcore.json into net.minecraft.client.renderer.LevelRenderer
-[255æœˆ2024 14:38:24.658] [modloading-worker-0/INFO] [mixin/]: Mixing render.LevelRendererMixin from changed.mixins.json into net.minecraft.client.renderer.LevelRenderer
-[255æœˆ2024 14:38:24.991] [modloading-worker-0/INFO] [mixin/]: Mixing client.ForgeHooksClientMixin from changed.mixins.json into net.minecraftforge.client.ForgeHooksClient
-[255æœˆ2024 14:38:25.248] [modloading-worker-0/INFO] [mixin/]: Mixing render.TextureAtlasMixin from changed.mixins.json into net.minecraft.client.renderer.texture.TextureAtlas
-[255æœˆ2024 14:38:26.238] [modloading-worker-0/INFO] [mixin/]: Mixing render.ModelBakeryMixin from changed.mixins.json into net.minecraft.client.resources.model.ModelBakery
-[255æœˆ2024 14:38:26.538] [modloading-worker-0/INFO] [mixin/]: Mixing gui.GuiMixin from changed.mixins.json into net.minecraft.client.gui.Gui
-[255æœˆ2024 14:38:26.540] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$renderSelectedItemName$4(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$renderSelectedItemName$4$0 in changed.mixins.json:gui.GuiMixin
-[255æœˆ2024 14:38:26.540] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$renderHotbar$3(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$renderHotbar$3$1 in changed.mixins.json:gui.GuiMixin
-[255æœˆ2024 14:38:26.540] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$renderEffects$2(Lcom/mojang/blaze3d/vertex/PoseStack;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$renderEffects$2$2 in changed.mixins.json:gui.GuiMixin
-[255æœˆ2024 14:38:26.540] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$renderEffects$1(Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;FLcom/mojang/blaze3d/vertex/PoseStack;II)V to mdb67844$lambda$renderEffects$1$3 in changed.mixins.json:gui.GuiMixin
-[255æœˆ2024 14:38:26.541] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$renderHeart$0(Lnet/minecraft/client/gui/Gui$HeartType;Lcom/mojang/blaze3d/vertex/PoseStack;IIZZILorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$renderHeart$0$4 in changed.mixins.json:gui.GuiMixin
-[255æœˆ2024 14:38:26.786] [modloading-worker-0/INFO] [mixin/]: Mixing gui.ForgeIngameGuiMixin from changed.mixins.json into net.minecraftforge.client.gui.ForgeIngameGui
-[255æœˆ2024 14:38:26.787] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$renderAir$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/world/entity/player/Player;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$renderAir$0$0 in changed.mixins.json:gui.ForgeIngameGuiMixin
-[255æœˆ2024 14:38:26.904] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Administrator\Desktop\changed-plus\run\config\cofh_core-common.toml is not correct. Correcting
-[255æœˆ2024 14:38:26.907] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay was corrected from null to its default, SimpleCommentedConfig:{}. 
-[255æœˆ2024 14:38:26.907] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay.Return Dismantle Drops was corrected from null to its default, false. 
-[255æœˆ2024 14:38:26.907] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay.Fishing was corrected from null to its default, SimpleCommentedConfig:{}. 
-[255æœˆ2024 14:38:26.908] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay.Fishing.Fishing Exhaustion was corrected from null to its default, false. 
-[255æœˆ2024 14:38:26.908] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay.Fishing.Fishing Exhaustion Amount was corrected from null to its default, 0.125. 
-[255æœˆ2024 14:38:26.908] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay.World was corrected from null to its default, SimpleCommentedConfig:{}. 
-[255æœˆ2024 14:38:26.908] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay.World.Sapling Growth Reduction was corrected from null to its default, false. 
-[255æœˆ2024 14:38:26.908] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Gameplay.World.Sapling Growth Reduction Factor was corrected from null to its default, 4. 
-[255æœˆ2024 14:38:26.918] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Administrator\Desktop\changed-plus\run\config\thermal-common.toml is not correct. Correcting
-[255æœˆ2024 14:38:26.919] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World was corrected from null to its default, SimpleCommentedConfig:{}. 
-[255æœˆ2024 14:38:26.920] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores was corrected from null to its default, SimpleCommentedConfig:{}. 
-[255æœˆ2024 14:38:26.920] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Oil Sand was corrected from null to its default, SimpleCommentedConfig:{}. 
-[255æœˆ2024 14:38:26.920] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Oil Sand.Vein Count was corrected from null to its default, 2. 
-[255æœˆ2024 14:38:26.920] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Oil Sand.Vein Size was corrected from null to its default, 24. 
-[255æœˆ2024 14:38:26.921] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Oil Sand.Min Y was corrected from null to its default, 40. 
-[255æœˆ2024 14:38:26.921] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Oil Sand.Max Y was corrected from null to its default, 80. 
-[255æœˆ2024 14:38:26.921] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Silver was corrected from null to its default, SimpleCommentedConfig:{}. 
-[255æœˆ2024 14:38:26.921] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Silver.Vein Count was corrected from null to its default, 4. 
-[255æœˆ2024 14:38:26.921] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Silver.Vein Size was corrected from null to its default, 8. 
-[255æœˆ2024 14:38:26.922] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Silver.Min Y was corrected from null to its default, -60. 
-[255æœˆ2024 14:38:26.922] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Silver.Max Y was corrected from null to its default, 40. 
-[255æœˆ2024 14:38:26.922] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Lead was corrected from null to its default, SimpleCommentedConfig:{}. 
-[255æœˆ2024 14:38:26.922] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Lead.Vein Count was corrected from null to its default, 6. 
-[255æœˆ2024 14:38:26.922] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Lead.Vein Size was corrected from null to its default, 8. 
-[255æœˆ2024 14:38:26.923] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Lead.Min Y was corrected from null to its default, -60. 
-[255æœˆ2024 14:38:26.923] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Lead.Max Y was corrected from null to its default, 40. 
-[255æœˆ2024 14:38:26.923] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Nickel was corrected from null to its default, SimpleCommentedConfig:{}. 
-[255æœˆ2024 14:38:26.923] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Nickel.Vein Count was corrected from null to its default, 4. 
-[255æœˆ2024 14:38:26.923] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Nickel.Vein Size was corrected from null to its default, 8. 
-[255æœˆ2024 14:38:26.923] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Nickel.Min Y was corrected from null to its default, -40. 
-[255æœˆ2024 14:38:26.924] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Nickel.Max Y was corrected from null to its default, 120. 
-[255æœˆ2024 14:38:26.924] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Cinnabar was corrected from null to its default, SimpleCommentedConfig:{}. 
-[255æœˆ2024 14:38:26.924] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Cinnabar.Vein Count was corrected from null to its default, 1. 
-[255æœˆ2024 14:38:26.924] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Cinnabar.Vein Size was corrected from null to its default, 5. 
-[255æœˆ2024 14:38:26.924] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Cinnabar.Min Y was corrected from null to its default, -16. 
-[255æœˆ2024 14:38:26.925] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Cinnabar.Max Y was corrected from null to its default, 48. 
-[255æœˆ2024 14:38:26.925] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Sulfur was corrected from null to its default, SimpleCommentedConfig:{}. 
-[255æœˆ2024 14:38:26.925] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Sulfur.Vein Count was corrected from null to its default, 2. 
-[255æœˆ2024 14:38:26.925] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Sulfur.Vein Size was corrected from null to its default, 7. 
-[255æœˆ2024 14:38:26.943] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Sulfur.Min Y was corrected from null to its default, -16. 
-[255æœˆ2024 14:38:26.944] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Sulfur.Max Y was corrected from null to its default, 32. 
-[255æœˆ2024 14:38:26.944] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Tin was corrected from null to its default, SimpleCommentedConfig:{}. 
-[255æœˆ2024 14:38:26.944] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Tin.Vein Count was corrected from null to its default, 6. 
-[255æœˆ2024 14:38:26.944] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Tin.Vein Size was corrected from null to its default, 9. 
-[255æœˆ2024 14:38:26.945] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Tin.Min Y was corrected from null to its default, -20. 
-[255æœˆ2024 14:38:26.945] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Tin.Max Y was corrected from null to its default, 60. 
-[255æœˆ2024 14:38:26.946] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Niter was corrected from null to its default, SimpleCommentedConfig:{}. 
-[255æœˆ2024 14:38:26.946] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Niter.Vein Count was corrected from null to its default, 2. 
-[255æœˆ2024 14:38:26.946] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Niter.Vein Size was corrected from null to its default, 7. 
-[255æœˆ2024 14:38:26.946] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Niter.Min Y was corrected from null to its default, -16. 
-[255æœˆ2024 14:38:26.946] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key World.Ores.Niter.Max Y was corrected from null to its default, 64. 
-[255æœˆ2024 14:38:26.966] [main/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:latex_variant]
-[255æœˆ2024 14:38:26.966] [main/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:ability]
-[255æœˆ2024 14:38:26.967] [main/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:hair_style]
-[255æœˆ2024 14:38:26.967] [main/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:player_mover]
-[255æœˆ2024 14:38:26.967] [main/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:latex_particle_type]
-[255æœˆ2024 14:38:28.164] [main/INFO] [mixin/]: Mixing render.RenderTypeMixin from changed.mixins.json into net.minecraft.client.renderer.RenderType
-[255æœˆ2024 14:38:28.201] [main/INFO] [mixin/]: Mixing render.ItemBlockRenderTypesMixin from changed.mixins.json into net.minecraft.client.renderer.ItemBlockRenderTypes
-[255æœˆ2024 14:38:28.252] [main/INFO] [mixin/]: Mixing render.GameRendererMixin from changed.mixins.json into net.minecraft.client.renderer.GameRenderer
-[255æœˆ2024 14:38:28.253] [main/INFO] [mixin/]: Renaming synthetic method lambda$reloadChangedShaders$3(Lcom/mojang/datafixers/util/Pair;)V to mdb67844$lambda$reloadChangedShaders$3$0 in changed.mixins.json:render.GameRendererMixin
-[255æœˆ2024 14:38:28.253] [main/INFO] [mixin/]: Renaming synthetic method lambda$reloadChangedShaders$2(Lcom/mojang/datafixers/util/Pair;)V to mdb67844$lambda$reloadChangedShaders$2$1 in changed.mixins.json:render.GameRendererMixin
-[255æœˆ2024 14:38:28.253] [main/INFO] [mixin/]: Renaming synthetic method lambda$bobView$1(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$bobView$1$2 in changed.mixins.json:render.GameRendererMixin
-[255æœˆ2024 14:38:28.253] [main/INFO] [mixin/]: Renaming synthetic method lambda$getNightVisionScale$0(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lnet/ltxprogrammer/changed/entity/variant/LatexVariantInstance;)V to mdb67844$lambda$getNightVisionScale$0$3 in changed.mixins.json:render.GameRendererMixin
-[255æœˆ2024 14:38:28.517] [main/INFO] [mixin/]: Mixing item.ItemRendererMixin from changed.mixins.json into net.minecraft.client.renderer.entity.ItemRenderer
-[255æœˆ2024 14:38:29.168] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
-[255æœˆ2024 14:38:29.169] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
-[255æœˆ2024 14:38:29.509] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Administrator/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.2.21_mapped_official_1.18.2/forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/assets/.mcassetsroot' uses unexpected schema
-[255æœˆ2024 14:38:29.509] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Administrator/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.2.21_mapped_official_1.18.2/forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/data/.mcassetsroot' uses unexpected schema
-[255æœˆ2024 14:38:30.514] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 0 ms
+[016ÔÂ2024 11:49:59.571] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\Administrator\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.2.21, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, --mixin.config, changed.mixins.json, --mixin.config, changed.compatibility.mixins.json]
+[016ÔÂ2024 11:49:59.579] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.11 by Eclipse Adoptium
+[016ÔÂ2024 11:49:59.785] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2324!/ Service=ModLauncher Env=CLIENT
+[016ÔÂ2024 11:50:00.185] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.2.21\c6fe3441af3b7980be1ed98298708883124cc3bf\javafmllanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[016ÔÂ2024 11:50:00.188] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.18.2-40.2.21\37b9f1843f8fe0387c9e7202cc7752d71d9a8b3d\lowcodelanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[016ÔÂ2024 11:50:00.191] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.18.2-40.2.21\5c1c2d561428e5b162d0b6682f9c8f39141a71f4\mclanguage-1.18.2-40.2.21.jar is missing mods.toml file
+[016ÔÂ2024 11:50:00.193] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.18.2-40.2.21\2fff7bebefc2a17d48339a2595ece9f8694970b8\fmlcore-1.18.2-40.2.21.jar is missing mods.toml file
+[016ÔÂ2024 11:50:00.353] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[016ÔÂ2024 11:50:01.840] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[016ÔÂ2024 11:50:01.852] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Administrator\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
+[016ÔÂ2024 11:50:02.183] [main/INFO] [mixin/]: Remapping refMap changed.refmap.json using C:\Users\Administrator\Desktop\changedplus\build\createSrgToMcp\output.srg
+[016ÔÂ2024 11:50:02.192] [main/INFO] [mixin/]: Remapping refMap changed.refmap.json using C:\Users\Administrator\Desktop\changedplus\build\createSrgToMcp\output.srg
+[016ÔÂ2024 11:50:02.193] [main/INFO] [mixin/]: Remapping refMap mixins.cofhcore.refmap.json using C:\Users\Administrator\Desktop\changedplus\build\createSrgToMcp\output.srg
+[016ÔÂ2024 11:50:09.575] [pool-3-thread-1/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `changed` for name `deferred_state_provider`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[016ÔÂ2024 11:50:09.575] [pool-3-thread-1/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `changed` for name `mixed_state_provider`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[016ÔÂ2024 11:50:12.520] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Administrator/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.2.21_mapped_official_1.18.2/forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/assets/.mcassetsroot' uses unexpected schema
+[016ÔÂ2024 11:50:12.521] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Administrator/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.2.21_mapped_official_1.18.2/forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/data/.mcassetsroot' uses unexpected schema
+[016ÔÂ2024 11:50:12.539] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[016ÔÂ2024 11:50:12.593] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[016ÔÂ2024 11:50:12.840] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[016ÔÂ2024 11:50:14.894] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.2.21, for MC 1.18.2 with MCP 20220404.173914
+[016ÔÂ2024 11:50:14.896] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.2.21 Initialized
+[016ÔÂ2024 11:50:17.716] [Render thread/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:latex_variant]
+[016ÔÂ2024 11:50:17.716] [Render thread/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:ability]
+[016ÔÂ2024 11:50:17.717] [Render thread/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:hair_style]
+[016ÔÂ2024 11:50:17.717] [Render thread/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:player_mover]
+[016ÔÂ2024 11:50:17.718] [Render thread/INFO] [net.ltxprogrammer.changed.init.ChangedRegistry/]: Created registry ResourceKey[minecraft:root / changed:latex_particle_type]
+[016ÔÂ2024 11:50:20.775] [Render thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[016ÔÂ2024 11:50:20.776] [Render thread/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[016ÔÂ2024 11:50:23.297] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[016ÔÂ2024 11:50:23.400] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[016ÔÂ2024 11:50:24.859] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[016ÔÂ2024 11:50:26.601] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[016ÔÂ2024 11:50:28.201] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 40.2.21 Target: null
+[016ÔÂ2024 11:50:28.201] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Starting version check at https://raw.github.com/cofh/version/master/cofh_core/update.json
+[016ÔÂ2024 11:50:29.356] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cofh_core] Found status: OUTDATED Current: 9.2.0.36 Target: 9.2.2
+[016ÔÂ2024 11:50:29.367] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Starting version check at https://raw.github.com/cofh/version/master/thermal/update.json
+[016ÔÂ2024 11:50:30.082] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal] Found status: AHEAD Current: 9.2.0.46 Target: null
+[016ÔÂ2024 11:50:30.083] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_expansion] Starting version check at https://raw.github.com/cofh/version/master/thermal/update_expansion.json
+[016ÔÂ2024 11:50:30.455] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [thermal_expansion] Found status: AHEAD Current: 9.2.0.20 Target: null
+[016ÔÂ2024 11:50:30.456] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [changedplus] Starting version check at https://legacy.curseforge.com/minecraft/mc-mods/changed-plus
+[016ÔÂ2024 11:50:30.780] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2344!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.18.2-40.2.21.jar%2384!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.18.2-40.2.21.jar%2384!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2344!/:?]
+	... 6 more
+[016ÔÂ2024 11:50:30.783] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [changed] Starting version check at https://raw.githubusercontent.com/LtxProgrammer/Changed-Minecraft-Mod/master/update.json
+[016ÔÂ2024 11:50:30.805] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [changed] Found status: UP_TO_DATE Current: 0.13.1 Target: null
+[016ÔÂ2024 11:50:31.959] [Render thread/INFO] [net.ltxprogrammer.changed.Changed/]: Updated 27 patreon special forms
+[016ÔÂ2024 11:50:32.017] [Thread-6/INFO] [net.ltxprogrammer.changed.Changed/]: Update checker started
+[016ÔÂ2024 11:50:55.508] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on ÑïÉùÆ÷ (Realtek(R) Audio)
+[016ÔÂ2024 11:50:55.511] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[016ÔÂ2024 11:50:55.925] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[016ÔÂ2024 11:50:56.157] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[016ÔÂ2024 11:50:56.159] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[016ÔÂ2024 11:50:56.199] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[016ÔÂ2024 11:50:56.210] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[016ÔÂ2024 11:50:56.213] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[016ÔÂ2024 11:50:56.218] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[016ÔÂ2024 11:50:57.767] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Gathering blocks to cover
+[016ÔÂ2024 11:50:57.778] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Starting latex cover generation for 981 blocks
+[016ÔÂ2024 11:50:58.135] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Hit 500/981 generated blocks (784 sprites)
+[016ÔÂ2024 11:50:59.330] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Finished model generation of 40714 latex models in 1.550 s
+[016ÔÂ2024 11:51:02.262] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/dark_latex frame 1: 1
+[016ÔÂ2024 11:51:02.263] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/dark_latex frame 2: 2
+[016ÔÂ2024 11:51:02.263] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/dark_latex frame 3: 3
+[016ÔÂ2024 11:51:02.264] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/dark_latex frame 4: 4
+[016ÔÂ2024 11:51:02.264] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/dark_latex frame 5: 3
+[016ÔÂ2024 11:51:02.264] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/dark_latex frame 6: 2
+[016ÔÂ2024 11:51:02.264] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/dark_latex frame 7: 1
+[016ÔÂ2024 11:51:02.265] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/white_latex frame 1: 1
+[016ÔÂ2024 11:51:02.265] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/white_latex frame 2: 2
+[016ÔÂ2024 11:51:02.266] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/white_latex frame 3: 3
+[016ÔÂ2024 11:51:02.266] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/white_latex frame 4: 4
+[016ÔÂ2024 11:51:02.266] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/white_latex frame 5: 3
+[016ÔÂ2024 11:51:02.266] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/white_latex frame 6: 2
+[016ÔÂ2024 11:51:02.266] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_furnace_active/white_latex frame 7: 1
+[016ÔÂ2024 11:51:02.289] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_smelter_active/dark_latex frame 1: 1
+[016ÔÂ2024 11:51:02.289] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_smelter_active/dark_latex frame 2: 2
+[016ÔÂ2024 11:51:02.289] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_smelter_active/dark_latex frame 3: 3
+[016ÔÂ2024 11:51:02.290] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_smelter_active/dark_latex frame 4: 4
+[016ÔÂ2024 11:51:02.291] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_smelter_active/white_latex frame 1: 1
+[016ÔÂ2024 11:51:02.291] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_smelter_active/white_latex frame 2: 2
+[016ÔÂ2024 11:51:02.293] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_smelter_active/white_latex frame 3: 3
+[016ÔÂ2024 11:51:02.293] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite thermal:block/machines/machine_smelter_active/white_latex frame 4: 4
+[016ÔÂ2024 11:51:02.428] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 1: 1
+[016ÔÂ2024 11:51:02.428] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 3: 2
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 5: 3
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 7: 1
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 8: 2
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 9: 1
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 10: 3
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 11: 1
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 13: 2
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 14: 1
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 15: 2
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 16: 3
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 17: 2
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 19: 3
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 20: 1
+[016ÔÂ2024 11:51:02.429] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/dark_latex frame 21: 3
+[016ÔÂ2024 11:51:02.526] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 1: 1
+[016ÔÂ2024 11:51:02.527] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 3: 2
+[016ÔÂ2024 11:51:02.527] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 5: 3
+[016ÔÂ2024 11:51:02.527] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 7: 1
+[016ÔÂ2024 11:51:02.527] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 8: 2
+[016ÔÂ2024 11:51:02.527] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 9: 1
+[016ÔÂ2024 11:51:02.527] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 10: 3
+[016ÔÂ2024 11:51:02.528] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 11: 1
+[016ÔÂ2024 11:51:02.528] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 13: 2
+[016ÔÂ2024 11:51:02.528] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 14: 1
+[016ÔÂ2024 11:51:02.528] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 15: 2
+[016ÔÂ2024 11:51:02.528] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 16: 3
+[016ÔÂ2024 11:51:02.528] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 17: 2
+[016ÔÂ2024 11:51:02.528] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 19: 3
+[016ÔÂ2024 11:51:02.528] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 20: 1
+[016ÔÂ2024 11:51:02.528] [Worker-Main-8/WARN] [net.minecraft.client.renderer.texture.TextureAtlasSprite/]: Invalid frame index on sprite minecraft:block/prismarine/white_latex frame 21: 3
+[016ÔÂ2024 11:51:02.946] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 changed:textures/atlas/latex_blocks.png-atlas
+[016ÔÂ2024 11:51:03.181] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Uploaded generated textures in 3.850 s
+[016ÔÂ2024 11:51:03.182] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: The chef has started baking the models, with 0 early bake, 0 reference bake, 40714 normal bake
+[016ÔÂ2024 11:51:03.282] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Removed already baked models from ModelBakery
+[016ÔÂ2024 11:51:05.495] [Render thread/INFO] [net.ltxprogrammer.changed.client.LatexCoveredBlocks/]: Finished baking of 40714 latex models in 7.717 s
+[016ÔÂ2024 11:51:09.175] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[016ÔÂ2024 11:51:09.199] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[016ÔÂ2024 11:51:09.204] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[016ÔÂ2024 11:51:09.212] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[016ÔÂ2024 11:51:09.216] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 32x16x0 changed:textures/atlas/latex_particles.png-atlas
+[016ÔÂ2024 11:51:09.815] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[016ÔÂ2024 11:51:35.155] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Deleting level ÐÂµÄÊÀ½ç
+[016ÔÂ2024 11:51:35.155] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Attempt 1...
+[016ÔÂ2024 11:51:41.987] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[016ÔÂ2024 11:51:41.988] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[016ÔÂ2024 11:51:41.991] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[016ÔÂ2024 11:51:41.992] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[016ÔÂ2024 11:51:41.993] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[016ÔÂ2024 11:51:41.997] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [cofh, ignite, duration] and [cofh, ignite, targets] with inputs: [0, -123, 123]
+[016ÔÂ2024 11:51:41.998] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [cofh, ignite, targets] and [cofh, ignite, duration] with inputs: [0123]
+[016ÔÂ2024 11:51:41.999] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [cofh, invis, flag] and [cofh, invis, targets] with inputs: [true, false]
+[016ÔÂ2024 11:51:42.000] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [cofh, invuln, flag] and [cofh, invuln, targets] with inputs: [true, false]
+[016ÔÂ2024 11:51:50.211] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 39 recipes
+[016ÔÂ2024 11:51:50.532] [Render thread/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table changed:chests/decayed_lab_dld
+com.google.gson.JsonSyntaxException: Missing entries
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:458) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2344!/:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:448) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:466) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:255) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2344!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2344!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:888) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2379%2386!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.apply(LootTables.java:39) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.apply(LootTables.java:17) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:13) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:157) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:131) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:140) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.Minecraft.makeWorldStem(Minecraft.java:2084) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1911) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.Minecraft.createLevel(Minecraft.java:1879) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.onCreate(CreateWorldScreen.java:246) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.lambda$init$13(CreateWorldScreen.java:195) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:40) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:16) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:111) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:27) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:528) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:85) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:185) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar%2358!/:build 10]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar%2364!/:build 10]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3174) ~[lwjgl-glfw-3.2.2.jar%2358!/:build 10]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:222) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1071) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:665) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.18.2-40.2.21_mapped_official_1.18.2.jar%2380!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:24) ~[fmlloader-1.18.2-40.2.21.jar%230!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2312!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2312!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2312!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2312!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2312!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2312!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2312!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?]
+[016ÔÂ2024 11:51:51.485] [Render thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement changed:recipes/changed_items/beehive_blocks: Expected recipe to be a string, was an array (["ch...l"])
+[016ÔÂ2024 11:51:51.525] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1249 advancements
+[016ÔÂ2024 11:51:53.068] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[016ÔÂ2024 11:51:53.113] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
+[016ÔÂ2024 11:51:53.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[016ÔÂ2024 11:51:53.260] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\ÐÂµÄÊÀ½ç\serverconfig\cofh_core-server.toml is not correct. Correcting
+[016ÔÂ2024 11:51:53.261] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Commands was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Commands.Crafting Permission Level was corrected from null to its default, 2. 
+[016ÔÂ2024 11:51:53.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Commands.EnderChest Permission Level was corrected from null to its default, 2. 
+[016ÔÂ2024 11:51:53.263] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Commands.Heal Permission Level was corrected from null to its default, 2. 
+[016ÔÂ2024 11:51:53.263] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Commands.Ignite Permission Level was corrected from null to its default, 2. 
+[016ÔÂ2024 11:51:53.263] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Commands.Repair Permission Level was corrected from null to its default, 2. 
+[016ÔÂ2024 11:51:53.264] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.264] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments.Improved Feather Falling was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.265] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments.Improved Mending was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.265] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments.Holding was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.265] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments.Holding.Enable was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.265] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments.Holding.Treasure was corrected from null to its default, false. 
+[016ÔÂ2024 11:51:53.265] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Enchantments.Holding.Max Level was corrected from null to its default, 4. 
+[016ÔÂ2024 11:51:53.270] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\ÐÂµÄÊÀ½ç\serverconfig\forge-server.toml is not correct. Correcting
+[016ÔÂ2024 11:51:53.272] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.272] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[016ÔÂ2024 11:51:53.272] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[016ÔÂ2024 11:51:53.272] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[016ÔÂ2024 11:51:53.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[016ÔÂ2024 11:51:53.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[016ÔÂ2024 11:51:53.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[016ÔÂ2024 11:51:53.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.skipEmptyShapelessCheck was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[016ÔÂ2024 11:51:53.284] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\ÐÂµÄÊÀ½ç\serverconfig\jei-server.toml is not correct. Correcting
+[016ÔÂ2024 11:51:53.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.286] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[016ÔÂ2024 11:51:53.289] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\ÐÂµÄÊÀ½ç\serverconfig\changed-server.toml is not correct. Correcting
+[016ÔÂ2024 11:51:53.290] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key transfurTolerance was corrected from null to its default, 20.0. 
+[016ÔÂ2024 11:51:53.293] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\ÐÂµÄÊÀ½ç\serverconfig\thermal-server.toml is not correct. Correcting
+[016ÔÂ2024 11:51:53.294] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.294] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Stirling was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.294] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Stirling.Base Power was corrected from null to its default, 40. 
+[016ÔÂ2024 11:51:53.294] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Compression was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.295] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Compression.Base Power was corrected from null to its default, 40. 
+[016ÔÂ2024 11:51:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Magmatic was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.298] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Magmatic.Base Power was corrected from null to its default, 40. 
+[016ÔÂ2024 11:51:53.298] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Numismatic was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.298] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Numismatic.Base Power was corrected from null to its default, 40. 
+[016ÔÂ2024 11:51:53.299] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Lapidary was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.299] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Lapidary.Base Power was corrected from null to its default, 40. 
+[016ÔÂ2024 11:51:53.299] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Disenchantment was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.299] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Disenchantment.Base Power was corrected from null to its default, 40. 
+[016ÔÂ2024 11:51:53.299] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Gourmand was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.300] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Dynamos.Gourmand.Base Power was corrected from null to its default, 40. 
+[016ÔÂ2024 11:51:53.300] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.301] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Furnace was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.301] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Furnace.Base Power was corrected from null to its default, 20. 
+[016ÔÂ2024 11:51:53.301] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Sawmill was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.301] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Sawmill.Base Power was corrected from null to its default, 20. 
+[016ÔÂ2024 11:51:53.301] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Pulverizer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.301] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Pulverizer.Base Power was corrected from null to its default, 20. 
+[016ÔÂ2024 11:51:53.301] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Smelter was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.301] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Smelter.Base Power was corrected from null to its default, 20. 
+[016ÔÂ2024 11:51:53.305] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Insolator was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.305] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Insolator.Base Power was corrected from null to its default, 20. 
+[016ÔÂ2024 11:51:53.305] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Centrifuge was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.305] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Centrifuge.Base Power was corrected from null to its default, 20. 
+[016ÔÂ2024 11:51:53.305] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Press was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.305] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Press.Base Power was corrected from null to its default, 20. 
+[016ÔÂ2024 11:51:53.305] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Crucible was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.305] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Crucible.Base Power was corrected from null to its default, 80. 
+[016ÔÂ2024 11:51:53.306] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Chiller was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.306] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Chiller.Base Power was corrected from null to its default, 20. 
+[016ÔÂ2024 11:51:53.306] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Refinery was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.306] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Refinery.Base Power was corrected from null to its default, 20. 
+[016ÔÂ2024 11:51:53.306] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Pyrolyzer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.306] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Pyrolyzer.Base Power was corrected from null to its default, 5. 
+[016ÔÂ2024 11:51:53.306] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Bottler was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.307] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Bottler.Base Power was corrected from null to its default, 20. 
+[016ÔÂ2024 11:51:53.307] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Brewer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.308] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Brewer.Base Power was corrected from null to its default, 20. 
+[016ÔÂ2024 11:51:53.308] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Crystallizer was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.308] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Crystallizer.Base Power was corrected from null to its default, 5. 
+[016ÔÂ2024 11:51:53.309] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Crafter was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.309] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Machines.Crafter.Base Power was corrected from null to its default, 20. 
+[016ÔÂ2024 11:51:53.310] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Global Options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.310] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Global Options.Standalone Redstone Flux was corrected from null to its default, false. 
+[016ÔÂ2024 11:51:53.311] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Global Options.Blocks Retain Energy was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.311] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Global Options.Blocks Retain Inventory was corrected from null to its default, false. 
+[016ÔÂ2024 11:51:53.311] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Global Options.Blocks Retain Tank Contents was corrected from null to its default, false. 
+[016ÔÂ2024 11:51:53.312] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Global Options.Blocks Retain Augments was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.312] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Global Options.Blocks Retain Redstone Control was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.312] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Global Options.Blocks Retain Side Configuration was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.312] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Global Options.Blocks Retain Transfer Control was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.315] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tools was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.315] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tools.Satchel was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.315] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Tools.Satchel.Denylist was corrected from null to its default, [thermal:satchel, minecraft:shulker_box, minecraft:white_shulker_box, minecraft:orange_shulker_box, minecraft:magenta_shulker_box, minecraft:light_blue_shulker_box, minecraft:yellow_shulker_box, minecraft:lime_shulker_box, minecraft:pink_shulker_box, minecraft:gray_shulker_box, minecraft:light_gray_shulker_box, minecraft:cyan_shulker_box, minecraft:purple_shulker_box, minecraft:blue_shulker_box, minecraft:brown_shulker_box, minecraft:green_shulker_box, minecraft:red_shulker_box, minecraft:black_shulker_box]. 
+[016ÔÂ2024 11:51:53.317] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.317] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Basalz was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.317] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Blitz was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.317] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Blizz was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.317] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mobs.Blitz Lightning was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.319] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Augments was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.320] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Augments.Default Side Reconfiguration was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.320] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Augments.Default Redstone Control was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.320] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Augments.Default XP Storage was corrected from null to its default, false. 
+[016ÔÂ2024 11:51:53.322] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Villagers was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.322] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Villagers.Enable Villager Trades was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.322] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Villagers.Enable Wandering Trader Trades was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.324] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Devices was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.324] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Devices.TreeExtractor was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.324] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Devices.TreeExtractor.Time Constant was corrected from null to its default, 500. 
+[016ÔÂ2024 11:51:53.325] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Devices.Composter was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.325] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Devices.Composter.Time Constant was corrected from null to its default, 120. 
+[016ÔÂ2024 11:51:53.325] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Devices.Composter.Particles was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:53.325] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Devices.Fisher was corrected from null to its default, SimpleCommentedConfig:{}. 
+[016ÔÂ2024 11:51:53.325] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Devices.Fisher.Time Constant was corrected from null to its default, 4800. 
+[016ÔÂ2024 11:51:53.325] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Devices.Fisher.Water Source Time Constant Reduction was corrected from null to its default, 20. 
+[016ÔÂ2024 11:51:53.325] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Devices.Fisher.Particles was corrected from null to its default, true. 
+[016ÔÂ2024 11:51:54.798] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[016ÔÂ2024 11:51:55.949] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º0%
+[016ÔÂ2024 11:51:55.949] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º0%
+[016ÔÂ2024 11:51:56.057] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º0%
+[016ÔÂ2024 11:51:56.716] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º1%
+[016ÔÂ2024 11:51:57.165] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º1%
+[016ÔÂ2024 11:51:57.483] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º7%
+[016ÔÂ2024 11:51:58.228] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º12%
+[016ÔÂ2024 11:51:58.650] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º12%
+[016ÔÂ2024 11:51:59.080] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º12%
+[016ÔÂ2024 11:51:59.571] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º12%
+[016ÔÂ2024 11:52:00.657] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º21%
+[016ÔÂ2024 11:52:00.657] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º21%
+[016ÔÂ2024 11:52:01.019] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º34%
+[016ÔÂ2024 11:52:01.486] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º41%
+[016ÔÂ2024 11:52:01.965] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º49%
+[016ÔÂ2024 11:52:02.496] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º55%
+[016ÔÂ2024 11:52:02.981] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º63%
+[016ÔÂ2024 11:52:03.497] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º71%
+[016ÔÂ2024 11:52:03.996] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º80%
+[016ÔÂ2024 11:52:04.495] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º88%
+[016ÔÂ2024 11:52:04.996] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: ×¼±¸Éú³ÉÇøÓòÖÐ£º97%
+[016ÔÂ2024 11:52:05.004] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[016ÔÂ2024 11:52:05.029] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10078 ms
+[016ÔÂ2024 11:52:05.079] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[016ÔÂ2024 11:52:05.082] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[016ÔÂ2024 11:52:05.227] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[016ÔÂ2024 11:52:06.220] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[016ÔÂ2024 11:52:06.258] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@16bbe6b5
+[016ÔÂ2024 11:52:06.274] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:b7507dd1] logged in with entity id 40 at (-6.5, -60.0, 2.5)
+[016ÔÂ2024 11:52:06.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev | Discord·þÎñÆ÷³ÉÔ±¼ÓÈëÁËÓÎÏ·
+[016ÔÂ2024 11:52:06.311] [Server thread/INFO] [net.ltxprogrammer.changed.Changed/]: Player joined, setting enabling update checker flag
+[016ÔÂ2024 11:52:06.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev | Discord·þÎñÆ÷³ÉÔ±È¡µÃÁË½ø¶È[»¶Ó­À´µ½changedplus]
+[016ÔÂ2024 11:52:06.667] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggedInEvent
+[016ÔÂ2024 11:52:06.668] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[016ÔÂ2024 11:52:06.669] [Render thread/INFO] [net.ltxprogrammer.changed.Changed/]: Player joined, setting enabling update checker flag
+[016ÔÂ2024 11:52:06.688] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: changed:purifier/changed:dark_latex_to_base
+[016ÔÂ2024 11:52:06.691] [Render thread/WARN] [net.minecraft.client.ClientRecipeBook/]: Unknown recipe category: changed:purifier/changed:white_latex_to_base
+[016ÔÂ2024 11:52:07.144] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[016ÔÂ2024 11:52:07.232] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[016ÔÂ2024 11:52:07.232] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[016ÔÂ2024 11:52:07.234] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI...
+[016ÔÂ2024 11:52:07.251] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:minecraft ...
+[016ÔÂ2024 11:52:07.255] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:minecraft took 4.178 ms
+[016ÔÂ2024 11:52:07.255] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: cofh_core:default ...
+[016ÔÂ2024 11:52:07.255] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: cofh_core:default took 13.20 ¦Ìs
+[016ÔÂ2024 11:52:07.256] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: thermal:core ...
+[016ÔÂ2024 11:52:07.256] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: thermal:core took 6.500 ¦Ìs
+[016ÔÂ2024 11:52:07.256] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: thermal:expansion ...
+[016ÔÂ2024 11:52:07.256] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: thermal:expansion took 7.300 ¦Ìs
+[016ÔÂ2024 11:52:07.256] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:debug ...
+[016ÔÂ2024 11:52:07.256] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:debug took 8.500 ¦Ìs
+[016ÔÂ2024 11:52:07.256] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:forge ...
+[016ÔÂ2024 11:52:07.256] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:forge took 19.20 ¦Ìs
+[016ÔÂ2024 11:52:07.256] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: changed:jei_plugin ...
+[016ÔÂ2024 11:52:07.257] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: changed:jei_plugin took 515.1 ¦Ìs
+[016ÔÂ2024 11:52:07.257] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:internal ...
+[016ÔÂ2024 11:52:07.257] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering item subtypes: jei:internal took 7.400 ¦Ìs
+[016ÔÂ2024 11:52:07.258] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft ...
+[016ÔÂ2024 11:52:07.258] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft took 40.90 ¦Ìs
+[016ÔÂ2024 11:52:07.258] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: cofh_core:default ...
+[016ÔÂ2024 11:52:07.259] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: cofh_core:default took 871.2 ¦Ìs
+[016ÔÂ2024 11:52:07.259] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: thermal:core ...
+[016ÔÂ2024 11:52:07.259] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: thermal:core took 6.900 ¦Ìs
+[016ÔÂ2024 11:52:07.259] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: thermal:expansion ...
+[016ÔÂ2024 11:52:07.259] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: thermal:expansion took 4.300 ¦Ìs
+[016ÔÂ2024 11:52:07.259] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:debug ...
+[016ÔÂ2024 11:52:07.259] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:debug took 673.9 ¦Ìs
+[016ÔÂ2024 11:52:07.261] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:forge ...
+[016ÔÂ2024 11:52:07.261] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:forge took 6.700 ¦Ìs
+[016ÔÂ2024 11:52:07.261] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: changed:jei_plugin ...
+[016ÔÂ2024 11:52:07.261] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: changed:jei_plugin took 4.400 ¦Ìs
+[016ÔÂ2024 11:52:07.261] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:internal ...
+[016ÔÂ2024 11:52:07.261] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering fluid subtypes: jei:internal took 5.800 ¦Ìs
+[016ÔÂ2024 11:52:07.264] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:minecraft ...
+[016ÔÂ2024 11:52:07.369] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:minecraft took 106.6 ms
+[016ÔÂ2024 11:52:07.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: cofh_core:default ...
+[016ÔÂ2024 11:52:07.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: cofh_core:default took 15.30 ¦Ìs
+[016ÔÂ2024 11:52:07.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: thermal:core ...
+[016ÔÂ2024 11:52:07.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: thermal:core took 6.700 ¦Ìs
+[016ÔÂ2024 11:52:07.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: thermal:expansion ...
+[016ÔÂ2024 11:52:07.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: thermal:expansion took 5.900 ¦Ìs
+[016ÔÂ2024 11:52:07.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:debug ...
+[016ÔÂ2024 11:52:07.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:debug took 92.70 ¦Ìs
+[016ÔÂ2024 11:52:07.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:forge ...
+[016ÔÂ2024 11:52:07.383] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:forge took 11.40 ms
+[016ÔÂ2024 11:52:07.384] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: changed:jei_plugin ...
+[016ÔÂ2024 11:52:07.384] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: changed:jei_plugin took 27.80 ¦Ìs
+[016ÔÂ2024 11:52:07.384] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:internal ...
+[016ÔÂ2024 11:52:07.384] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering ingredients: jei:internal took 9.800 ¦Ìs
+[016ÔÂ2024 11:52:07.388] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list...
+[016ÔÂ2024 11:52:07.402] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list took 13.49 ms
+[016ÔÂ2024 11:52:07.402] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter...
+[016ÔÂ2024 11:52:07.459] [Render thread/INFO] [mezz.jei.ingredients.IngredientFilter/]: Adding 2057 ingredients
+[016ÔÂ2024 11:52:07.761] [Render thread/INFO] [mezz.jei.ingredients.IngredientFilter/]: Added 2057 ingredients
+[016ÔÂ2024 11:52:07.764] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter took 361.6 ms
+[016ÔÂ2024 11:52:07.776] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building bookmarks...
+[016ÔÂ2024 11:52:07.792] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building bookmarks took 15.29 ms
+[016ÔÂ2024 11:52:07.794] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:minecraft ...
+[016ÔÂ2024 11:52:07.840] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:minecraft took 46.02 ms
+[016ÔÂ2024 11:52:07.840] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: cofh_core:default ...
+[016ÔÂ2024 11:52:07.841] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: cofh_core:default took 28.10 ¦Ìs
+[016ÔÂ2024 11:52:07.841] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: thermal:core ...
+[016ÔÂ2024 11:52:07.850] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: thermal:core took 8.303 ms
+[016ÔÂ2024 11:52:07.850] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: thermal:expansion ...
+[016ÔÂ2024 11:52:07.904] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: thermal:expansion took 53.39 ms
+[016ÔÂ2024 11:52:07.904] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:debug ...
+[016ÔÂ2024 11:52:07.904] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:debug took 24.70 ¦Ìs
+[016ÔÂ2024 11:52:07.904] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:forge ...
+[016ÔÂ2024 11:52:07.904] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:forge took 7.700 ¦Ìs
+[016ÔÂ2024 11:52:07.904] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: changed:jei_plugin ...
+[016ÔÂ2024 11:52:07.909] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: changed:jei_plugin took 4.091 ms
+[016ÔÂ2024 11:52:07.909] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:internal ...
+[016ÔÂ2024 11:52:07.912] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering categories: jei:internal took 3.088 ms
+[016ÔÂ2024 11:52:07.913] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft ...
+[016ÔÂ2024 11:52:07.919] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft took 5.252 ms
+[016ÔÂ2024 11:52:07.919] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: cofh_core:default ...
+[016ÔÂ2024 11:52:07.919] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: cofh_core:default took 25.00 ¦Ìs
+[016ÔÂ2024 11:52:07.919] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: thermal:core ...
+[016ÔÂ2024 11:52:07.919] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: thermal:core took 12.00 ¦Ìs
+[016ÔÂ2024 11:52:07.919] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: thermal:expansion ...
+[016ÔÂ2024 11:52:07.921] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: thermal:expansion took 9.400 ¦Ìs
+[016ÔÂ2024 11:52:07.921] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:debug ...
+[016ÔÂ2024 11:52:07.921] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:debug took 8.200 ¦Ìs
+[016ÔÂ2024 11:52:07.921] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:forge ...
+[016ÔÂ2024 11:52:07.921] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:forge took 7.700 ¦Ìs
+[016ÔÂ2024 11:52:07.921] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: changed:jei_plugin ...
+[016ÔÂ2024 11:52:07.921] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: changed:jei_plugin took 8.500 ¦Ìs
+[016ÔÂ2024 11:52:07.921] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:internal ...
+[016ÔÂ2024 11:52:07.921] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering vanilla category extensions: jei:internal took 6.800 ¦Ìs
+[016ÔÂ2024 11:52:07.925] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft ...
+[016ÔÂ2024 11:52:07.927] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft took 813.8 ¦Ìs
+[016ÔÂ2024 11:52:07.927] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: cofh_core:default ...
+[016ÔÂ2024 11:52:07.927] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: cofh_core:default took 17.20 ¦Ìs
+[016ÔÂ2024 11:52:07.927] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: thermal:core ...
+[016ÔÂ2024 11:52:07.927] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: thermal:core took 89.60 ¦Ìs
+[016ÔÂ2024 11:52:07.927] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: thermal:expansion ...
+[016ÔÂ2024 11:52:07.928] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: thermal:expansion took 174.8 ¦Ìs
+[016ÔÂ2024 11:52:07.928] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:debug ...
+[016ÔÂ2024 11:52:07.928] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:debug took 15.40 ¦Ìs
+[016ÔÂ2024 11:52:07.928] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:forge ...
+[016ÔÂ2024 11:52:07.928] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:forge took 6.300 ¦Ìs
+[016ÔÂ2024 11:52:07.928] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: changed:jei_plugin ...
+[016ÔÂ2024 11:52:07.928] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: changed:jei_plugin took 8.400 ¦Ìs
+[016ÔÂ2024 11:52:07.928] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:internal ...
+[016ÔÂ2024 11:52:07.928] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipe catalysts: jei:internal took 6.500 ¦Ìs
+[016ÔÂ2024 11:52:07.932] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:minecraft ...
+[016ÔÂ2024 11:52:07.933] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:minecraft took 42.70 ¦Ìs
+[016ÔÂ2024 11:52:07.933] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: cofh_core:default ...
+[016ÔÂ2024 11:52:07.933] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: cofh_core:default took 10.30 ¦Ìs
+[016ÔÂ2024 11:52:07.933] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: thermal:core ...
+[016ÔÂ2024 11:52:07.933] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: thermal:core took 6.000 ¦Ìs
+[016ÔÂ2024 11:52:07.933] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: thermal:expansion ...
+[016ÔÂ2024 11:52:07.935] [Render thread/INFO] [mezz.jei.load.registration.AdvancedRegistration/]: Added recipe manager plugin: class cofh.thermal.expansion.compat.jei.machine.PotionFluidRecipeManagerPlugin
+[016ÔÂ2024 11:52:07.936] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: thermal:expansion took 2.331 ms
+[016ÔÂ2024 11:52:07.936] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:debug ...
+[016ÔÂ2024 11:52:07.936] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:debug took 8.900 ¦Ìs
+[016ÔÂ2024 11:52:07.936] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:forge ...
+[016ÔÂ2024 11:52:07.936] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:forge took 6.000 ¦Ìs
+[016ÔÂ2024 11:52:07.936] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: changed:jei_plugin ...
+[016ÔÂ2024 11:52:07.936] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: changed:jei_plugin took 5.700 ¦Ìs
+[016ÔÂ2024 11:52:07.936] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:internal ...
+[016ÔÂ2024 11:52:07.936] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering advanced plugins: jei:internal took 5.800 ¦Ìs
+[016ÔÂ2024 11:52:07.936] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry...
+[016ÔÂ2024 11:52:07.963] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry took 26.41 ms
+[016ÔÂ2024 11:52:07.968] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:minecraft ...
+[016ÔÂ2024 11:52:08.364] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:minecraft took 394.5 ms
+[016ÔÂ2024 11:52:08.365] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: cofh_core:default ...
+[016ÔÂ2024 11:52:08.365] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: cofh_core:default took 30.50 ¦Ìs
+[016ÔÂ2024 11:52:08.365] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: thermal:core ...
+[016ÔÂ2024 11:52:08.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: thermal:core took 5.932 ms
+[016ÔÂ2024 11:52:08.371] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: thermal:expansion ...
+[016ÔÂ2024 11:52:08.471] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: thermal:expansion took 99.27 ms
+[016ÔÂ2024 11:52:08.471] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:debug ...
+[016ÔÂ2024 11:52:08.471] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:debug took 86.40 ¦Ìs
+[016ÔÂ2024 11:52:08.471] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:forge ...
+[016ÔÂ2024 11:52:08.603] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:forge took 131.4 ms
+[016ÔÂ2024 11:52:08.604] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: changed:jei_plugin ...
+[016ÔÂ2024 11:52:08.613] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: changed:jei_plugin took 9.062 ms
+[016ÔÂ2024 11:52:08.613] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:internal ...
+[016ÔÂ2024 11:52:08.613] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes: jei:internal took 26.90 ¦Ìs
+[016ÔÂ2024 11:52:08.628] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft ...
+[016ÔÂ2024 11:52:08.637] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft took 9.146 ms
+[016ÔÂ2024 11:52:08.637] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: cofh_core:default ...
+[016ÔÂ2024 11:52:08.637] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: cofh_core:default took 22.10 ¦Ìs
+[016ÔÂ2024 11:52:08.637] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: thermal:core ...
+[016ÔÂ2024 11:52:08.637] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: thermal:core took 7.300 ¦Ìs
+[016ÔÂ2024 11:52:08.637] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: thermal:expansion ...
+[016ÔÂ2024 11:52:08.638] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: thermal:expansion took 7.100 ¦Ìs
+[016ÔÂ2024 11:52:08.638] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug ...
+[016ÔÂ2024 11:52:08.638] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug took 6.500 ¦Ìs
+[016ÔÂ2024 11:52:08.638] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge ...
+[016ÔÂ2024 11:52:08.638] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge took 5.900 ¦Ìs
+[016ÔÂ2024 11:52:08.638] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: changed:jei_plugin ...
+[016ÔÂ2024 11:52:08.638] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: changed:jei_plugin took 6.600 ¦Ìs
+[016ÔÂ2024 11:52:08.638] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal ...
+[016ÔÂ2024 11:52:08.638] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal took 6.100 ¦Ìs
+[016ÔÂ2024 11:52:08.654] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime...
+[016ÔÂ2024 11:52:08.670] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:minecraft ...
+[016ÔÂ2024 11:52:08.676] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:minecraft took 6.234 ms
+[016ÔÂ2024 11:52:08.676] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: cofh_core:default ...
+[016ÔÂ2024 11:52:08.679] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: cofh_core:default took 2.695 ms
+[016ÔÂ2024 11:52:08.679] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: thermal:core ...
+[016ÔÂ2024 11:52:08.679] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: thermal:core took 97.10 ¦Ìs
+[016ÔÂ2024 11:52:08.679] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: thermal:expansion ...
+[016ÔÂ2024 11:52:08.681] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: thermal:expansion took 355.4 ¦Ìs
+[016ÔÂ2024 11:52:08.681] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:debug ...
+[016ÔÂ2024 11:52:08.681] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:debug took 18.90 ¦Ìs
+[016ÔÂ2024 11:52:08.681] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:forge ...
+[016ÔÂ2024 11:52:08.681] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:forge took 8.000 ¦Ìs
+[016ÔÂ2024 11:52:08.681] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: changed:jei_plugin ...
+[016ÔÂ2024 11:52:08.681] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: changed:jei_plugin took 70.90 ¦Ìs
+[016ÔÂ2024 11:52:08.681] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:internal ...
+[016ÔÂ2024 11:52:08.692] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Registering gui handlers: jei:internal took 11.14 ms
+[016ÔÂ2024 11:52:08.783] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime took 127.7 ms
+[016ÔÂ2024 11:52:08.784] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:minecraft ...
+[016ÔÂ2024 11:52:08.784] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:minecraft took 46.30 ¦Ìs
+[016ÔÂ2024 11:52:08.785] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: cofh_core:default ...
+[016ÔÂ2024 11:52:08.785] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: cofh_core:default took 10.80 ¦Ìs
+[016ÔÂ2024 11:52:08.785] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: thermal:core ...
+[016ÔÂ2024 11:52:08.785] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: thermal:core took 19.30 ¦Ìs
+[016ÔÂ2024 11:52:08.785] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: thermal:expansion ...
+[016ÔÂ2024 11:52:08.785] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: thermal:expansion took 8.900 ¦Ìs
+[016ÔÂ2024 11:52:08.785] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:debug ...
+[016ÔÂ2024 11:52:08.785] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:debug took 25.00 ¦Ìs
+[016ÔÂ2024 11:52:08.785] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:forge ...
+[016ÔÂ2024 11:52:08.786] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:forge took 8.300 ¦Ìs
+[016ÔÂ2024 11:52:08.786] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: changed:jei_plugin ...
+[016ÔÂ2024 11:52:08.786] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: changed:jei_plugin took 9.100 ¦Ìs
+[016ÔÂ2024 11:52:08.786] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:internal ...
+[016ÔÂ2024 11:52:08.786] [Render thread/INFO] [mezz.jei.load.PluginCaller/]: Sending Runtime: jei:internal took 8.600 ¦Ìs
+[016ÔÂ2024 11:52:08.867] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI took 1.633 s
+[016ÔÂ2024 11:52:09.107] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] »¶Ó­À´µ½½ºÊÞµÄÊÀ½ç! Dev | Discord·þÎñÆ÷³ÉÔ±, Äã×¼±¸ºÃ±»ÊÞ»¯ÁËÂð£¿
+[016ÔÂ2024 11:52:09.111] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [CHAT] Dev | Discord·þÎñÆ÷³ÉÔ±È¡µÃÁË½ø¶È[»¶Ó­À´µ½changedplus]
+[016ÔÂ2024 11:52:09.111] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1 advancements
+[016ÔÂ2024 11:52:20.155] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[016ÔÂ2024 11:52:20.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[ÐÂµÄÊÀ½ç]'/minecraft:overworld
+[016ÔÂ2024 11:52:20.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[ÐÂµÄÊÀ½ç]'/minecraft:the_end
+[016ÔÂ2024 11:52:20.200] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[ÐÂµÄÊÀ½ç]'/minecraft:the_nether
+[016ÔÂ2024 11:52:23.755] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[016ÔÂ2024 11:52:23.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[ÐÂµÄÊÀ½ç]'/minecraft:overworld
+[016ÔÂ2024 11:52:23.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[ÐÂµÄÊÀ½ç]'/minecraft:the_end
+[016ÔÂ2024 11:52:23.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[ÐÂµÄÊÀ½ç]'/minecraft:the_nether

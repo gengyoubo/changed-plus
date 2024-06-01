@@ -1,6 +1,6 @@
-package github.com.gengyoubo.changedplus.item.item;
+package github.com.gengyoubo.changedplus.item;
 
-import github.com.gengyoubo.changedplus.item.ChangedPlusTab;
+import github.com.gengyoubo.changedplus.other.ChangedPlusTab;
 import net.minecraft.world.item.Item;
 
 // 单个物品函数
