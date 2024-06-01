@@ -1,4 +1,4 @@
-package github.com.gengyoubo.changedplus.item;
+package github.com.gengyoubo.changedplus.item.item;
 
 import github.com.gengyoubo.changedplus.other.ChangedPlusTab;
 import net.ltxprogrammer.changed.entity.variant.LatexVariant;
