@@ -17,7 +17,7 @@ public class welcome {
     public static void playerJoinWorld(PlayerEvent.PlayerLoggedInEvent event) {
         Player player = event.getPlayer();
         Level level = player.level;
-        // 使用本地化消息
+
         Component welcomeMessage = new TranslatableComponent("message.welcome", player.getDisplayName().getString());
         player.sendMessage(welcomeMessage, Util.NIL_UUID);
     }
