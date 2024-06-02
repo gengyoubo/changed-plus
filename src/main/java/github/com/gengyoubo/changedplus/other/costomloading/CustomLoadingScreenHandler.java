@@ -1,6 +1,5 @@
-package github.com.gengyoubo.changedplus.other;
+package github.com.gengyoubo.changedplus.other.costomloading;
 
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.screens.LevelLoadingScreen;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraftforge.client.event.ScreenOpenEvent;
@@ -31,4 +30,5 @@ public class CustomLoadingScreenHandler {
     public void onClientSetup(FMLClientSetupEvent event) {
         // 这里可以执行客户端设置时需要的代码
     }
+
 }
