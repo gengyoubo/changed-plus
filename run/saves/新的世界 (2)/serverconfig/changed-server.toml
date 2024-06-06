@@ -1,0 +1,3 @@
+#Replacing gamerule transfurTolerance, this config value acts like setting the max health of the player.
+transfurTolerance = 20.0
+

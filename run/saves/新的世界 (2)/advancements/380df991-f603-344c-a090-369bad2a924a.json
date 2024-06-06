@@ -1,0 +1,15 @@
+{
+  "changedplus:root": {
+    "criteria": {
+      "tick": "2024-06-06 22:52:13 +0900"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-06-06 22:52:13 +0900"
+    },
+    "done": false
+  },
+  "DataVersion": 2975
+}

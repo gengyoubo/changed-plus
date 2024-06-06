@@ -71,9 +71,6 @@ minecraft {
     }
 }
 sourceSets.main.resources { srcDir 'src/generated/resources' }
-repositories {
-  ////
-}
 jar {
     manifest {
         attributes([
@@ -87,10 +84,16 @@ jar {
         ])
     }
 }
+mixin {
+    add sourceSets.main, "changed.refmap.json"
 
+    config "changed.mixins.json"
+    config "changed.compatibility.mixins.json"
+}
 repositories {
+    mavenLocal()
     flatDir {
-        dirs 'libs'
+        dirs 'mods/'
     }
     maven {
         url "https://cursemaven.com"
@@ -99,26 +102,9 @@ repositories {
         name = "Changed"
         url = "https://raw.githubusercontent.com/LtxProgrammer/Changed-Minecraft-Mod/master/mcmodsrepo/"
     }
-}
-
-mixin {
-    add sourceSets.main, "changed.refmap.json"
-
-    config "changed.mixins.json"
-    config "changed.compatibility.mixins.json"
-}
-
-repositories {
-    flatDir {
-        dirs 'libs'
-    }
-    mavenLocal()
     maven { // SlimeKnights and JEI
         name 'DVS1 Maven FS'
         url 'https://dvs1.progwml6.com/files/maven'
-    }
-    maven {
-        url "https://cursemaven.com"
     }
     maven {
         name = "Changed"
@@ -143,6 +129,9 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+    maven {
+        url "https://maven.blamejared.com"
+    }
 }
 
 
@@ -154,4 +143,6 @@ dependencies {
     implementation fg.deobf("com.teamcofh:cofh_core:1.18.2-9.2.0.+")
     implementation fg.deobf("com.teamcofh:thermal_foundation:1.18.2-9.2.0.+")
     implementation fg.deobf("com.teamcofh:thermal_expansion:1.18.2-9.2.0.+")
+    implementation fg.deobf("org.embeddedt:embeddium-1.18.2:0.2.11-git.669ff54+mc1.18.2")
+    file ("oculus-mc1.18.2-1.6.4.jar")
 }
