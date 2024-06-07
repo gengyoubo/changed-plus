@@ -4,46 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df56c267-6142-48c2-9a0d-1265e02083bb" name="游戏" comment="更新了加载文本">
+    <list default="true" id="df56c267-6142-48c2-9a0d-1265e02083bb" name="游戏" comment="小更新">
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2024_6_1_11_41____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2024_6_1_11_41____.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/changedplus.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/changedplus.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/changedplus.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/changedplus.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/com/gengyoubo/changedplus/item/Latex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/com/gengyoubo/changedplus/item/Latex_sword.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/com/gengyoubo/changedplus/item/latex_stick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/github/com/gengyoubo/changedplus/item/long_latex_stick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/changedplus/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/changedplus/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/changedplus/lang/zh_cn.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/changedplus/lang/zh_cn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/cofh_core-1.18.2-9.2.3.47.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/thermal_expansion-1.18.2-9.2.2.24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/changed-client-1.toml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/changed-client-1.toml.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/config/changed-client-2.toml.bak" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/changed-client-2.toml.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/LP/LatexGeneratorBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/LP/LatexGeneratorContainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/LP/LatexGeneratorScreen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/LP/latex_generator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/other/ModBlockEntityTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/other/ModEventSubscriber/ModContainerTypes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/other/ModEventSubscriber/ModEventSubscriberEntityBlock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/com/gengyoubo/changedplus/other/ModEventSubscriber/ModEventSubscriberEntityType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/mods.toml" afterDir="false" />
     </list>
     <list id="a2c7f2ee-319e-4d61-8dde-252f5b93d82a" name="更改" comment="增加了当被击杀时，被兽化" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,6 +113,9 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;history&quot;: [
     {
+      &quot;author&quot;: &quot;gengyoubo&quot;
+    },
+    {
       &quot;state&quot;: &quot;OPEN&quot;
     }
   ],
@@ -200,6 +177,7 @@
     "Gradle.changedplus [:prepareRunClient].executor": "Run",
     "Gradle.changedplus [build].executor": "Run",
     "Gradle.changedplus [dependencies].executor": "Run",
+    "Gradle.changedplus [jar].executor": "Run",
     "Gradle.changedplus [runClient].executor": "Run",
     "Gradle.加载 Gradle 依赖项.executor": "Run",
     "Gradle.构建 changed-plus.executor": "Run",
@@ -211,7 +189,7 @@
     "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Administrator/MCreatorWorkspaces/text",
+    "last_opened_file_path": "C:/Users/Administrator/MCreatorWorkspaces/changed_plus_industry",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -241,20 +219,7 @@
       <recent name="github.com.gengyoubo.changedplus.advancements" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.changedplus [runClient]">
-    <configuration name="LPG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="github.com.gengyoubo.changedplus.LP.LPG" />
-      <module name="changedplus.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="github.com.gengyoubo.changedplus.LP.latex_generator_block" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Gradle.changedplus [jar]">
     <configuration name="ModContainerTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="github.com.gengyoubo.changedplus.other.ModEventSubscriber.ModContainerTypes" />
       <module name="changedplus.main" />
@@ -312,6 +277,28 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="changedplus [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="changedplus [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -335,6 +322,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Gradle.changedplus [jar]" />
       <item itemvalue="Gradle.changedplus [dependencies]" />
       <item itemvalue="Gradle.changedplus [build]" />
       <item itemvalue="Gradle.changedplus [runClient]" />
@@ -343,15 +331,14 @@
       <item itemvalue="应用程序.runGameTestServer" />
       <item itemvalue="应用程序.runServer" />
       <item itemvalue="应用程序.ModContainerTypes" />
-      <item itemvalue="应用程序.LPG" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.changedplus [jar]" />
         <item itemvalue="Gradle.changedplus [runClient]" />
         <item itemvalue="Gradle.changedplus [dependencies]" />
         <item itemvalue="应用程序.ModContainerTypes" />
         <item itemvalue="Gradle.changedplus [build]" />
-        <item itemvalue="应用程序.LPG" />
       </list>
     </recent_temporary>
   </component>
@@ -522,7 +509,11 @@
       <workItem from="1717501223949" duration="1348000" />
       <workItem from="1717503040992" duration="5958000" />
       <workItem from="1717570614246" duration="5683000" />
-      <workItem from="1717590636858" duration="11417000" />
+      <workItem from="1717590636858" duration="11726000" />
+      <workItem from="1717714558860" duration="138000" />
+      <workItem from="1717740159360" duration="352000" />
+      <workItem from="1717741902661" duration="156000" />
+      <workItem from="1717760108445" duration="108000" />
     </task>
     <task id="LOCAL-00011" summary="小更新">
       <option name="closed" value="true" />
@@ -588,7 +579,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717331003773</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="小更新">
+      <option name="closed" value="true" />
+      <created>1717682094549</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717682094549</updated>
+    </task>
+    <task id="LOCAL-00020" summary="小更新">
+      <option name="closed" value="true" />
+      <created>1717682140603</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1717682140603</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <option name="trackContextForNewChangelist" value="true" />
     <servers />
   </component>
@@ -613,10 +620,10 @@
     <MESSAGE value="添加了剑的动态攻击力" />
     <MESSAGE value="当使用者是胶兽时，攻击力会增加！！！" />
     <MESSAGE value="增加了当被击杀时，被兽化" />
-    <MESSAGE value="小更新" />
     <MESSAGE value="添加了加载文本" />
     <MESSAGE value="更新了加载文本" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了加载文本" />
+    <MESSAGE value="小更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="小更新" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
