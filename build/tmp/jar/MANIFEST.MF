@@ -2,9 +2,9 @@ Manifest-Version: 1.0
 Specification-Title: changedplus
 Specification-Vendor: gengyoubo
 Specification-Version: 1
-Implementation-Title: changed-plus
-Implementation-Version: 0.0.2
+Implementation-Title: changedplus
+Implementation-Version: 0.0.3b
 Implementation-Vendor: gengyoubo
-Implementation-Timestamp: 2024-05-25T07:33:44+0900
+Implementation-Timestamp: 2024-06-09T22:57:19+0900
 MixinConfigs: changed.mixins.json,changed.compatibility.mixins.json
 

@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/changed-plus.test.iml" filepath="$PROJECT_DIR$/.idea/modules/changed-plus.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/changedplus.main.iml" filepath="$PROJECT_DIR$/.idea/modules/changedplus.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/changedplus.test.iml" filepath="$PROJECT_DIR$/.idea/modules/changedplus.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/github.com.gengyoubo.changedplus.changedplus.main.iml" filepath="$PROJECT_DIR$/.idea/modules/github.com.gengyoubo.changedplus.changedplus.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/github.com.gengyoubo.changedplus.changedplus.test.iml" filepath="$PROJECT_DIR$/.idea/modules/github.com.gengyoubo.changedplus.changedplus.test.iml" />
     </modules>
   </component>
 </project>

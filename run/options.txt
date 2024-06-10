@@ -66,7 +66,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:false
@@ -137,6 +137,9 @@ key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.r
+key_iris.keybind.toggleShaders:key.keyboard.k
+key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_key.changed.variant_ability:key.keyboard.r
 key_key.changed.use_ability:key.keyboard.z
 key_key.cofh.mode_change_increment:key.keyboard.v
