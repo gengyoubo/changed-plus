@@ -14,7 +14,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = "0.0.3a"
+version = "0.0.3c"
 group = 'github.com.gengyoubo.changedplus'
 archivesBaseName = 'changedplus'
 
@@ -98,10 +98,6 @@ repositories {
     maven {
         url "https://cursemaven.com"
     }
-    maven {
-        name = "Changed"
-        url = "https://raw.githubusercontent.com/LtxProgrammer/Changed-Minecraft-Mod/master/mcmodsrepo/"
-    }
     maven { // SlimeKnights and JEI
         name 'DVS1 Maven FS'
         url 'https://dvs1.progwml6.com/files/maven'
@@ -123,15 +119,6 @@ repositories {
     maven { // Curios
         url 'https://maven.theillusivec4.top/'
     }
-    maven {
-        url "https://cfa2.cursemaven.com/"
-        content {
-            includeGroup "curse.maven"
-        }
-    }
-    maven {
-        url "https://maven.blamejared.com"
-    }
 }
 
 
@@ -144,5 +131,6 @@ dependencies {
     implementation fg.deobf("com.teamcofh:thermal_foundation:1.18.2-9.2.0.+")
     implementation fg.deobf("com.teamcofh:thermal_expansion:1.18.2-9.2.0.+")
     implementation fg.deobf("org.embeddedt:embeddium-1.18.2:0.2.11-git.669ff54+mc1.18.2")
-    file ("oculus-mc1.18.2-1.6.4.jar")
+    implementation fg.deobf("curse.maven:Oculus-581495:4578744")
+    implementation fg.deobf("curse.maven:LSP-387365:3831950" )
 }

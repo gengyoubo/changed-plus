@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "changedplus:block/latex_generator" }
+  }
+}
