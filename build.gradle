@@ -14,7 +14,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: 'org.spongepowered.mixin'
 
-version = "0.0.3c"
+version = "0.0.3HappyBirthday"
 group = 'github.com.gengyoubo.changedplus'
 archivesBaseName = 'changedplus'
 

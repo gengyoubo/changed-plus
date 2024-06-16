@@ -9,6 +9,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import org.jetbrains.annotations.NotNull;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -43,10 +44,20 @@ public class CustomLoadingScreen extends Screen {
 
     // 构造函数
     public CustomLoadingScreen() {
-        super(new TranslatableComponent("Message.DoYouKnow." + getRandomMessage()));
-        String rawMessage = new TranslatableComponent("Message.DoYouKnow." + getRandomMessage()).getString();
+        super(new TranslatableComponent(getDisplayMessageKey()));
+        String rawMessage = new TranslatableComponent(getDisplayMessageKey()).getString();
         int maxWidth = getMaxWidth();
         this.loadingMessageLines = wrapText(rawMessage, maxWidth);
+    }
+
+    // 获取显示消息的键
+    private static String getDisplayMessageKey() {
+        LocalDate currentDate = LocalDate.now();
+        if (currentDate.getMonthValue() == 6 && currentDate.getDayOfMonth() == 16) {
+            return "Message.HappyBirthday!";
+        } else {
+            return "Message.DoYouKnow." + getRandomMessage();
+        }
     }
 
     // 获取随机消息
