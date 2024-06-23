@@ -1,5 +1,5 @@
 Java Launcher: C:\Users\Administrator\.gradle\jdks\jdk-17.0.11+9\bin\java.exe
-Arguments: '--in-jar, C:\Users\Administrator\Desktop\changedplus\build\libs\changedplus-0.0.3HappyBirthday.jar, --out-jar, C:\Users\Administrator\Desktop\changedplus\build\reobfJar\output.jar, --srg-in, C:\Users\Administrator\Desktop\changedplus\build\createMcpToSrg\output.tsrg, --live'
+Arguments: '--in-jar, C:\Users\Administrator\Desktop\changedplus\build\libs\changedplus-0.0.3d.jar, --out-jar, C:\Users\Administrator\Desktop\changedplus\build\reobfJar\output.jar, --srg-in, C:\Users\Administrator\Desktop\changedplus\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\Administrator\.gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
  - C:\Users\Administrator\.gradle\caches\forge_gradle\deobf_dependencies\net\ltxprogrammer\changed\Changed-m1.18.2-f40.2.0\v0.13.1_mapped_official_1.18.2\Changed-m1.18.2-f40.2.0-v0.13.1_mapped_official_1.18.2.jar
